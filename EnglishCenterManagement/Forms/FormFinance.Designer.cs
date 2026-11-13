@@ -1,0 +1,755 @@
+namespace EnglishCenterManagement.Forms
+{
+    partial class FormFinance
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle headerStyle = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle cellStyle = new System.Windows.Forms.DataGridViewCellStyle();
+            this.lblEyebrow = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.tlpStats = new System.Windows.Forms.TableLayoutPanel();
+            this.pnlRevenue = new System.Windows.Forms.Panel();
+            this.lblRevenue = new System.Windows.Forms.Label();
+            this.lblRevenueValue = new System.Windows.Forms.Label();
+            this.lblRevenueNote = new System.Windows.Forms.Label();
+            this.pnlDebt = new System.Windows.Forms.Panel();
+            this.lblDebt = new System.Windows.Forms.Label();
+            this.lblDebtValue = new System.Windows.Forms.Label();
+            this.lblDebtNote = new System.Windows.Forms.Label();
+            this.pnlInstallments = new System.Windows.Forms.Panel();
+            this.lblInstallments = new System.Windows.Forms.Label();
+            this.lblInstallmentsValue = new System.Windows.Forms.Label();
+            this.lblInstallmentsNote = new System.Windows.Forms.Label();
+            this.pnlRegistration = new System.Windows.Forms.Panel();
+            this.pnlRegistrationForm = new System.Windows.Forms.Panel();
+            this.lblRegistrationTitle = new System.Windows.Forms.Label();
+            this.lblStudent = new System.Windows.Forms.Label();
+            this.cboStudent = new System.Windows.Forms.ComboBox();
+            this.lblClass = new System.Windows.Forms.Label();
+            this.cboClass = new System.Windows.Forms.ComboBox();
+            this.pnlPolicy = new System.Windows.Forms.Panel();
+            this.chkOldStudent = new System.Windows.Forms.CheckBox();
+            this.chkGroup = new System.Windows.Forms.CheckBox();
+            this.lblPlan = new System.Windows.Forms.Label();
+            this.cboPlan = new System.Windows.Forms.ComboBox();
+            this.pnlInvoice = new System.Windows.Forms.Panel();
+            this.lblEstimate = new System.Windows.Forms.Label();
+            this.lblBase = new System.Windows.Forms.Label();
+            this.lblBaseValue = new System.Windows.Forms.Label();
+            this.lblDiscount = new System.Windows.Forms.Label();
+            this.lblDiscountValue = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblTotalValue = new System.Windows.Forms.Label();
+            this.lblInstallmentNote = new System.Windows.Forms.Label();
+            this.btnConfirm = new System.Windows.Forms.Button();
+            this.pnlTable = new System.Windows.Forms.Panel();
+            this.lblRecent = new System.Windows.Forms.Label();
+            this.dgvEnrollments = new System.Windows.Forms.DataGridView();
+            this.colStudent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colClass = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colFee = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPlan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPaid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colAction = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pnlFooter = new System.Windows.Forms.Panel();
+            this.lblPageInfo = new System.Windows.Forms.Label();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.btnPage1 = new System.Windows.Forms.Button();
+            this.btnPage2 = new System.Windows.Forms.Button();
+            this.btnPage3 = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.tlpStats.SuspendLayout();
+            this.pnlRevenue.SuspendLayout();
+            this.pnlDebt.SuspendLayout();
+            this.pnlInstallments.SuspendLayout();
+            this.pnlRegistration.SuspendLayout();
+            this.pnlRegistrationForm.SuspendLayout();
+            this.pnlPolicy.SuspendLayout();
+            this.pnlInvoice.SuspendLayout();
+            this.pnlTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEnrollments)).BeginInit();
+            this.pnlFooter.SuspendLayout();
+            this.SuspendLayout();
+            // lblEyebrow
+            this.lblEyebrow.AutoSize = true;
+            this.lblEyebrow.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEyebrow.ForeColor = System.Drawing.Color.FromArgb(37, 131, 215);
+            this.lblEyebrow.Location = new System.Drawing.Point(31, 27);
+            this.lblEyebrow.Name = "lblEyebrow";
+            this.lblEyebrow.Text = "ĐĂNG KÝ & THU HỌC PHÍ";
+            this.lblEyebrow.UseMnemonic = false;
+            // lblTitle
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
+            this.lblTitle.Location = new System.Drawing.Point(27, 42);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Text = "Quản lý học phí";
+            // lblDesc
+            this.lblDesc.AutoSize = true;
+            this.lblDesc.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
+            this.lblDesc.Location = new System.Drawing.Point(31, 79);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Text = "Tính học phí, áp dụng ưu đãi và theo dõi công nợ.";
+            // btnAdd
+            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(901, 46);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(184, 38);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Tag = "\uE710";
+            this.btnAdd.Text = "Tạo phiếu đăng ký";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.btnAdd.Paint += new System.Windows.Forms.PaintEventHandler(this.Primary_Paint);
+            // tlpStats
+            this.tlpStats.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.tlpStats.ColumnCount = 3;
+            this.tlpStats.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlpStats.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlpStats.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tlpStats.Controls.Add(this.pnlRevenue, 0, 0);
+            this.tlpStats.Controls.Add(this.pnlDebt, 1, 0);
+            this.tlpStats.Controls.Add(this.pnlInstallments, 2, 0);
+            this.tlpStats.Location = new System.Drawing.Point(31, 116);
+            this.tlpStats.Name = "tlpStats";
+            this.tlpStats.RowCount = 1;
+            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpStats.Size = new System.Drawing.Size(1054, 116);
+            this.tlpStats.TabIndex = 1;
+            // pnlRevenue
+            this.pnlRevenue.BackColor = System.Drawing.Color.White;
+            this.pnlRevenue.Controls.Add(this.lblRevenue);
+            this.pnlRevenue.Controls.Add(this.lblRevenueValue);
+            this.pnlRevenue.Controls.Add(this.lblRevenueNote);
+            this.pnlRevenue.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlRevenue.Location = new System.Drawing.Point(0, 0);
+            this.pnlRevenue.Margin = new System.Windows.Forms.Padding(0, 0, 13, 0);
+            this.pnlRevenue.Name = "pnlRevenue";
+            this.pnlRevenue.Size = new System.Drawing.Size(338, 116);
+            this.pnlRevenue.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            // lblRevenue
+            this.lblRevenue.AutoSize = true;
+            this.lblRevenue.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
+            this.lblRevenue.Location = new System.Drawing.Point(17, 17);
+            this.lblRevenue.Name = "lblRevenue";
+            this.lblRevenue.Text = "Doanh thu tháng";
+            // lblRevenueValue
+            this.lblRevenueValue.AutoSize = true;
+            this.lblRevenueValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRevenueValue.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
+            this.lblRevenueValue.Location = new System.Drawing.Point(13, 40);
+            this.lblRevenueValue.Name = "lblRevenueValue";
+            this.lblRevenueValue.Text = "0 triệu";
+            // lblRevenueNote
+            this.lblRevenueNote.AutoSize = true;
+            this.lblRevenueNote.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblRevenueNote.ForeColor = System.Drawing.Color.FromArgb(53, 160, 120);
+            this.lblRevenueNote.Location = new System.Drawing.Point(17, 84);
+            this.lblRevenueNote.Name = "lblRevenueNote";
+            this.lblRevenueNote.Text = "↑ 0% so với tháng trước";
+            // pnlDebt
+            this.pnlDebt.BackColor = System.Drawing.Color.White;
+            this.pnlDebt.Controls.Add(this.lblDebt);
+            this.pnlDebt.Controls.Add(this.lblDebtValue);
+            this.pnlDebt.Controls.Add(this.lblDebtNote);
+            this.pnlDebt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDebt.Location = new System.Drawing.Point(351, 0);
+            this.pnlDebt.Margin = new System.Windows.Forms.Padding(0, 0, 13, 0);
+            this.pnlDebt.Name = "pnlDebt";
+            this.pnlDebt.Size = new System.Drawing.Size(338, 116);
+            this.pnlDebt.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            // lblDebt
+            this.lblDebt.AutoSize = true;
+            this.lblDebt.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
+            this.lblDebt.Location = new System.Drawing.Point(17, 17);
+            this.lblDebt.Name = "lblDebt";
+            this.lblDebt.Text = "Công nợ cần thu";
+            // lblDebtValue
+            this.lblDebtValue.AutoSize = true;
+            this.lblDebtValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDebtValue.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
+            this.lblDebtValue.Location = new System.Drawing.Point(13, 40);
+            this.lblDebtValue.Name = "lblDebtValue";
+            this.lblDebtValue.Text = "0 triệu";
+            // lblDebtNote
+            this.lblDebtNote.AutoSize = true;
+            this.lblDebtNote.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDebtNote.ForeColor = System.Drawing.Color.FromArgb(220, 123, 57);
+            this.lblDebtNote.Location = new System.Drawing.Point(17, 84);
+            this.lblDebtNote.Name = "lblDebtNote";
+            this.lblDebtNote.Text = "0 học viên chưa hoàn tất";
+            // pnlInstallments
+            this.pnlInstallments.BackColor = System.Drawing.Color.White;
+            this.pnlInstallments.Controls.Add(this.lblInstallments);
+            this.pnlInstallments.Controls.Add(this.lblInstallmentsValue);
+            this.pnlInstallments.Controls.Add(this.lblInstallmentsNote);
+            this.pnlInstallments.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlInstallments.Location = new System.Drawing.Point(702, 0);
+            this.pnlInstallments.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlInstallments.Name = "pnlInstallments";
+            this.pnlInstallments.Size = new System.Drawing.Size(352, 116);
+            this.pnlInstallments.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            // lblInstallments
+            this.lblInstallments.AutoSize = true;
+            this.lblInstallments.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
+            this.lblInstallments.Location = new System.Drawing.Point(17, 17);
+            this.lblInstallments.Name = "lblInstallments";
+            this.lblInstallments.Text = "Đang trả góp";
+            // lblInstallmentsValue
+            this.lblInstallmentsValue.AutoSize = true;
+            this.lblInstallmentsValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblInstallmentsValue.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
+            this.lblInstallmentsValue.Location = new System.Drawing.Point(13, 40);
+            this.lblInstallmentsValue.Name = "lblInstallmentsValue";
+            this.lblInstallmentsValue.Text = "0 học viên";
+            // lblInstallmentsNote
+            this.lblInstallmentsNote.AutoSize = true;
+            this.lblInstallmentsNote.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInstallmentsNote.ForeColor = System.Drawing.Color.FromArgb(53, 160, 120);
+            this.lblInstallmentsNote.Location = new System.Drawing.Point(17, 84);
+            this.lblInstallmentsNote.Name = "lblInstallmentsNote";
+            this.lblInstallmentsNote.Text = "0 kỳ thanh toán còn lại";
+            // pnlRegistration
+            this.pnlRegistration.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.pnlRegistration.BackColor = System.Drawing.Color.White;
+            this.pnlRegistration.Controls.Add(this.pnlRegistrationForm);
+            this.pnlRegistration.Controls.Add(this.pnlInvoice);
+            this.pnlRegistration.Location = new System.Drawing.Point(31, 245);
+            this.pnlRegistration.Name = "pnlRegistration";
+            this.pnlRegistration.Size = new System.Drawing.Size(1054, 355);
+            this.pnlRegistration.TabIndex = 2;
+            this.pnlRegistration.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            // pnlRegistrationForm
+            this.pnlRegistrationForm.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.pnlRegistrationForm.BackColor = System.Drawing.Color.White;
+            this.pnlRegistrationForm.Controls.Add(this.lblRegistrationTitle);
+            this.pnlRegistrationForm.Controls.Add(this.lblStudent);
+            this.pnlRegistrationForm.Controls.Add(this.cboStudent);
+            this.pnlRegistrationForm.Controls.Add(this.lblClass);
+            this.pnlRegistrationForm.Controls.Add(this.cboClass);
+            this.pnlRegistrationForm.Controls.Add(this.pnlPolicy);
+            this.pnlRegistrationForm.Controls.Add(this.lblPlan);
+            this.pnlRegistrationForm.Controls.Add(this.cboPlan);
+            this.pnlRegistrationForm.Location = new System.Drawing.Point(23, 22);
+            this.pnlRegistrationForm.Name = "pnlRegistrationForm";
+            this.pnlRegistrationForm.Size = new System.Drawing.Size(620, 311);
+            this.pnlRegistrationForm.TabIndex = 0;
+            // lblRegistrationTitle
+            this.lblRegistrationTitle.AutoSize = true;
+            this.lblRegistrationTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRegistrationTitle.ForeColor = System.Drawing.Color.FromArgb(36, 50, 73);
+            this.lblRegistrationTitle.Location = new System.Drawing.Point(0, 0);
+            this.lblRegistrationTitle.Name = "lblRegistrationTitle";
+            this.lblRegistrationTitle.Text = "Tính học phí đăng ký";
+            // lblStudent
+            this.lblStudent.AutoSize = true;
+            this.lblStudent.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblStudent.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
+            this.lblStudent.Location = new System.Drawing.Point(1, 44);
+            this.lblStudent.Name = "lblStudent";
+            this.lblStudent.Text = "Học viên";
+            // cboStudent
+            this.cboStudent.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.cboStudent.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
+            this.cboStudent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboStudent.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboStudent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboStudent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cboStudent.ForeColor = System.Drawing.Color.FromArgb(76, 93, 114);
+            this.cboStudent.ItemHeight = 32;
+            this.cboStudent.Location = new System.Drawing.Point(0, 65);
+            this.cboStudent.Name = "cboStudent";
+            this.cboStudent.Size = new System.Drawing.Size(620, 38);
+            this.cboStudent.TabIndex = 0;
+            this.cboStudent.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
+            this.cboStudent.SelectedIndexChanged += new System.EventHandler(this.cboStudent_SelectedIndexChanged);
+            // lblClass
+            this.lblClass.AutoSize = true;
+            this.lblClass.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblClass.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
+            this.lblClass.Location = new System.Drawing.Point(1, 115);
+            this.lblClass.Name = "lblClass";
+            this.lblClass.Text = "Chọn lớp";
+            // cboClass
+            this.cboClass.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.cboClass.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
+            this.cboClass.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboClass.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboClass.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cboClass.ForeColor = System.Drawing.Color.FromArgb(76, 93, 114);
+            this.cboClass.ItemHeight = 32;
+            this.cboClass.Location = new System.Drawing.Point(0, 135);
+            this.cboClass.Name = "cboClass";
+            this.cboClass.Size = new System.Drawing.Size(620, 38);
+            this.cboClass.TabIndex = 1;
+            this.cboClass.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
+            this.cboClass.SelectedIndexChanged += new System.EventHandler(this.Calculation_Changed);
+            // pnlPolicy
+            this.pnlPolicy.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.pnlPolicy.BackColor = System.Drawing.Color.FromArgb(247, 249, 251);
+            this.pnlPolicy.Controls.Add(this.chkOldStudent);
+            this.pnlPolicy.Controls.Add(this.chkGroup);
+            this.pnlPolicy.Location = new System.Drawing.Point(0, 189);
+            this.pnlPolicy.Name = "pnlPolicy";
+            this.pnlPolicy.Size = new System.Drawing.Size(620, 47);
+            this.pnlPolicy.TabIndex = 2;
+            this.pnlPolicy.Paint += new System.Windows.Forms.PaintEventHandler(this.Policy_Paint);
+            // chkOldStudent
+            this.chkOldStudent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkOldStudent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.chkOldStudent.ForeColor = System.Drawing.Color.FromArgb(89, 106, 127);
+            this.chkOldStudent.Location = new System.Drawing.Point(12, 11);
+            this.chkOldStudent.Name = "chkOldStudent";
+            this.chkOldStudent.Size = new System.Drawing.Size(191, 25);
+            this.chkOldStudent.TabIndex = 0;
+            this.chkOldStudent.Text = "Học viên cũ −10%";
+            this.chkOldStudent.UseVisualStyleBackColor = false;
+            this.chkOldStudent.CheckedChanged += new System.EventHandler(this.Calculation_Changed);
+            // chkGroup
+            this.chkGroup.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkGroup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.chkGroup.ForeColor = System.Drawing.Color.FromArgb(89, 106, 127);
+            this.chkGroup.Location = new System.Drawing.Point(225, 11);
+            this.chkGroup.Name = "chkGroup";
+            this.chkGroup.Size = new System.Drawing.Size(204, 25);
+            this.chkGroup.TabIndex = 1;
+            this.chkGroup.Text = "Đăng ký nhóm −10%";
+            this.chkGroup.UseVisualStyleBackColor = false;
+            this.chkGroup.CheckedChanged += new System.EventHandler(this.Calculation_Changed);
+            // lblPlan
+            this.lblPlan.AutoSize = true;
+            this.lblPlan.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPlan.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
+            this.lblPlan.Location = new System.Drawing.Point(1, 253);
+            this.lblPlan.Name = "lblPlan";
+            this.lblPlan.Text = "Phương thức";
+            // cboPlan
+            this.cboPlan.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.cboPlan.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
+            this.cboPlan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboPlan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboPlan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboPlan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboPlan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cboPlan.ForeColor = System.Drawing.Color.FromArgb(76, 93, 114);
+            this.cboPlan.ItemHeight = 32;
+            this.cboPlan.Items.AddRange(new object[] { "Thanh toán một lần", "Chia 2 kỳ", "Chia 3 kỳ" });
+            this.cboPlan.Location = new System.Drawing.Point(0, 274);
+            this.cboPlan.Name = "cboPlan";
+            this.cboPlan.Size = new System.Drawing.Size(620, 38);
+            this.cboPlan.TabIndex = 3;
+            this.cboPlan.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
+            this.cboPlan.SelectedIndexChanged += new System.EventHandler(this.Calculation_Changed);
+            // pnlInvoice
+            this.pnlInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.pnlInvoice.BackColor = System.Drawing.Color.FromArgb(16, 45, 77);
+            this.pnlInvoice.Controls.Add(this.lblEstimate);
+            this.pnlInvoice.Controls.Add(this.lblBase);
+            this.pnlInvoice.Controls.Add(this.lblBaseValue);
+            this.pnlInvoice.Controls.Add(this.lblDiscount);
+            this.pnlInvoice.Controls.Add(this.lblDiscountValue);
+            this.pnlInvoice.Controls.Add(this.lblTotal);
+            this.pnlInvoice.Controls.Add(this.lblTotalValue);
+            this.pnlInvoice.Controls.Add(this.lblInstallmentNote);
+            this.pnlInvoice.Controls.Add(this.btnConfirm);
+            this.pnlInvoice.Location = new System.Drawing.Point(677, 22);
+            this.pnlInvoice.Name = "pnlInvoice";
+            this.pnlInvoice.Size = new System.Drawing.Size(355, 311);
+            this.pnlInvoice.TabIndex = 1;
+            this.pnlInvoice.Paint += new System.Windows.Forms.PaintEventHandler(this.Invoice_Paint);
+            // lblEstimate
+            this.lblEstimate.AutoSize = true;
+            this.lblEstimate.BackColor = System.Drawing.Color.Transparent;
+            this.lblEstimate.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEstimate.ForeColor = System.Drawing.Color.FromArgb(142, 177, 208);
+            this.lblEstimate.Location = new System.Drawing.Point(20, 20);
+            this.lblEstimate.Name = "lblEstimate";
+            this.lblEstimate.Text = "TẠM TÍNH";
+            // lblBase
+            this.lblBase.AutoSize = true;
+            this.lblBase.BackColor = System.Drawing.Color.Transparent;
+            this.lblBase.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblBase.ForeColor = System.Drawing.Color.FromArgb(168, 190, 210);
+            this.lblBase.Location = new System.Drawing.Point(20, 65);
+            this.lblBase.Name = "lblBase";
+            this.lblBase.Text = "Học phí gốc";
+            // lblBaseValue
+            this.lblBaseValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblBaseValue.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblBaseValue.ForeColor = System.Drawing.Color.White;
+            this.lblBaseValue.Location = new System.Drawing.Point(159, 57);
+            this.lblBaseValue.Name = "lblBaseValue";
+            this.lblBaseValue.Size = new System.Drawing.Size(176, 28);
+            this.lblBaseValue.Text = "0đ";
+            this.lblBaseValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // lblDiscount
+            this.lblDiscount.AutoSize = true;
+            this.lblDiscount.BackColor = System.Drawing.Color.Transparent;
+            this.lblDiscount.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDiscount.ForeColor = System.Drawing.Color.FromArgb(168, 190, 210);
+            this.lblDiscount.Location = new System.Drawing.Point(20, 108);
+            this.lblDiscount.Name = "lblDiscount";
+            this.lblDiscount.Text = "Ưu đãi";
+            // lblDiscountValue
+            this.lblDiscountValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblDiscountValue.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDiscountValue.ForeColor = System.Drawing.Color.FromArgb(110, 208, 167);
+            this.lblDiscountValue.Location = new System.Drawing.Point(159, 100);
+            this.lblDiscountValue.Name = "lblDiscountValue";
+            this.lblDiscountValue.Size = new System.Drawing.Size(176, 28);
+            this.lblDiscountValue.Text = "−0đ";
+            this.lblDiscountValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // lblTotal
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(168, 190, 210);
+            this.lblTotal.Location = new System.Drawing.Point(20, 171);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Text = "Tổng thanh toán";
+            // lblTotalValue
+            this.lblTotalValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTotalValue.ForeColor = System.Drawing.Color.White;
+            this.lblTotalValue.Location = new System.Drawing.Point(143, 157);
+            this.lblTotalValue.Name = "lblTotalValue";
+            this.lblTotalValue.Size = new System.Drawing.Size(192, 38);
+            this.lblTotalValue.Text = "0đ";
+            this.lblTotalValue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // lblInstallmentNote
+            this.lblInstallmentNote.BackColor = System.Drawing.Color.Transparent;
+            this.lblInstallmentNote.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInstallmentNote.ForeColor = System.Drawing.Color.FromArgb(142, 171, 196);
+            this.lblInstallmentNote.Location = new System.Drawing.Point(20, 201);
+            this.lblInstallmentNote.Name = "lblInstallmentNote";
+            this.lblInstallmentNote.Size = new System.Drawing.Size(315, 42);
+            this.lblInstallmentNote.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // btnConfirm
+            this.btnConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConfirm.FlatAppearance.BorderSize = 0;
+            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirm.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnConfirm.ForeColor = System.Drawing.Color.FromArgb(23, 59, 94);
+            this.btnConfirm.Location = new System.Drawing.Point(20, 254);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(315, 37);
+            this.btnConfirm.TabIndex = 0;
+            this.btnConfirm.Text = "Xác nhận đăng ký";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            this.btnConfirm.Paint += new System.Windows.Forms.PaintEventHandler(this.White_Paint);
+            // pnlTable
+            this.pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.pnlTable.BackColor = System.Drawing.Color.White;
+            this.pnlTable.Controls.Add(this.dgvEnrollments);
+            this.pnlTable.Controls.Add(this.lblRecent);
+            this.pnlTable.Controls.Add(this.pnlFooter);
+            this.pnlTable.Location = new System.Drawing.Point(31, 616);
+            this.pnlTable.Name = "pnlTable";
+            this.pnlTable.Padding = new System.Windows.Forms.Padding(1);
+            this.pnlTable.Size = new System.Drawing.Size(1054, 635);
+            this.pnlTable.TabIndex = 3;
+            this.pnlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            // lblRecent
+            this.lblRecent.AutoSize = true;
+            this.lblRecent.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRecent.ForeColor = System.Drawing.Color.FromArgb(36, 50, 73);
+            this.lblRecent.Location = new System.Drawing.Point(20, 19);
+            this.lblRecent.Name = "lblRecent";
+            this.lblRecent.Text = "Phiếu đăng ký gần đây";
+            // dgvEnrollments
+            this.dgvEnrollments.AllowUserToAddRows = false;
+            this.dgvEnrollments.AllowUserToDeleteRows = false;
+            this.dgvEnrollments.AllowUserToResizeColumns = false;
+            this.dgvEnrollments.AllowUserToResizeRows = false;
+            this.dgvEnrollments.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right));
+            this.dgvEnrollments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvEnrollments.BackgroundColor = System.Drawing.Color.White;
+            this.dgvEnrollments.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvEnrollments.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvEnrollments.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            headerStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            headerStyle.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
+            headerStyle.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            headerStyle.ForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
+            headerStyle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            headerStyle.SelectionBackColor = System.Drawing.Color.FromArgb(248, 250, 252);
+            headerStyle.SelectionForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
+            headerStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEnrollments.ColumnHeadersDefaultCellStyle = headerStyle;
+            this.dgvEnrollments.ColumnHeadersHeight = 39;
+            this.dgvEnrollments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvEnrollments.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+                this.colStudent, this.colClass, this.colFee, this.colPlan, this.colPaid, this.colAction });
+            this.dgvEnrollments.Cursor = System.Windows.Forms.Cursors.Hand;
+            cellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            cellStyle.BackColor = System.Drawing.Color.White;
+            cellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            cellStyle.ForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
+            cellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(247, 251, 255);
+            cellStyle.SelectionForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
+            cellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEnrollments.DefaultCellStyle = cellStyle;
+            this.dgvEnrollments.EnableHeadersVisualStyles = false;
+            this.dgvEnrollments.GridColor = System.Drawing.Color.FromArgb(237, 240, 244);
+            this.dgvEnrollments.Location = new System.Drawing.Point(1, 60);
+            this.dgvEnrollments.MultiSelect = false;
+            this.dgvEnrollments.Name = "dgvEnrollments";
+            this.dgvEnrollments.ReadOnly = true;
+            this.dgvEnrollments.RowHeadersVisible = false;
+            this.dgvEnrollments.RowTemplate.Height = 60;
+            this.dgvEnrollments.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgvEnrollments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvEnrollments.Size = new System.Drawing.Size(1052, 519);
+            this.dgvEnrollments.TabIndex = 0;
+            this.dgvEnrollments.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEnrollments_CellClick);
+            this.dgvEnrollments.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvEnrollments_CellPainting);
+            this.dgvEnrollments.SizeChanged += new System.EventHandler(this.Grid_SizeChanged);
+            // columns
+            this.colStudent.FillWeight = 230F;
+            this.colStudent.HeaderText = "HỌC VIÊN";
+            this.colStudent.Name = "colStudent";
+            this.colStudent.ReadOnly = true;
+            this.colStudent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colClass.FillWeight = 185F;
+            this.colClass.HeaderText = "LỚP";
+            this.colClass.Name = "colClass";
+            this.colClass.ReadOnly = true;
+            this.colClass.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colFee.FillWeight = 205F;
+            this.colFee.HeaderText = "HỌC PHÍ";
+            this.colFee.Name = "colFee";
+            this.colFee.ReadOnly = true;
+            this.colFee.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colPlan.FillWeight = 130F;
+            this.colPlan.HeaderText = "PHƯƠNG THỨC";
+            this.colPlan.Name = "colPlan";
+            this.colPlan.ReadOnly = true;
+            this.colPlan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colPaid.FillWeight = 180F;
+            this.colPaid.HeaderText = "ĐÃ THU / CÒN LẠI";
+            this.colPaid.Name = "colPaid";
+            this.colPaid.ReadOnly = true;
+            this.colPaid.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colAction.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colAction.HeaderText = "";
+            this.colAction.Name = "colAction";
+            this.colAction.ReadOnly = true;
+            this.colAction.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colAction.Width = 128;
+            // pnlFooter
+            this.pnlFooter.BackColor = System.Drawing.Color.White;
+            this.pnlFooter.Controls.Add(this.lblPageInfo);
+            this.pnlFooter.Controls.Add(this.btnPrev);
+            this.pnlFooter.Controls.Add(this.btnPage1);
+            this.pnlFooter.Controls.Add(this.btnPage2);
+            this.pnlFooter.Controls.Add(this.btnPage3);
+            this.pnlFooter.Controls.Add(this.btnNext);
+            this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlFooter.Location = new System.Drawing.Point(1, 580);
+            this.pnlFooter.Name = "pnlFooter";
+            this.pnlFooter.Size = new System.Drawing.Size(1052, 54);
+            this.pnlFooter.TabIndex = 1;
+            this.pnlFooter.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFooter_Paint);
+            // lblPageInfo
+            this.lblPageInfo.AutoSize = true;
+            this.lblPageInfo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPageInfo.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
+            this.lblPageInfo.Location = new System.Drawing.Point(18, 20);
+            this.lblPageInfo.Name = "lblPageInfo";
+            this.lblPageInfo.Text = "Trang 1 / 1 · Hiển thị 0 kết quả";
+            // btnPrev
+            this.btnPrev.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrev.FlatAppearance.BorderSize = 0;
+            this.btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrev.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPrev.Location = new System.Drawing.Point(886, 13);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(28, 28);
+            this.btnPrev.TabIndex = 0;
+            this.btnPrev.Tag = "\uE76B";
+            this.btnPrev.UseVisualStyleBackColor = false;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
+            this.btnPrev.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            // btnPage1
+            this.btnPage1.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnPage1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPage1.FlatAppearance.BorderSize = 0;
+            this.btnPage1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPage1.Location = new System.Drawing.Point(918, 13);
+            this.btnPage1.Name = "btnPage1";
+            this.btnPage1.Size = new System.Drawing.Size(28, 28);
+            this.btnPage1.TabIndex = 1;
+            this.btnPage1.Text = "1";
+            this.btnPage1.UseVisualStyleBackColor = false;
+            this.btnPage1.Click += new System.EventHandler(this.Page_Click);
+            this.btnPage1.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            // btnPage2
+            this.btnPage2.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnPage2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPage2.FlatAppearance.BorderSize = 0;
+            this.btnPage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPage2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPage2.Location = new System.Drawing.Point(950, 13);
+            this.btnPage2.Name = "btnPage2";
+            this.btnPage2.Size = new System.Drawing.Size(28, 28);
+            this.btnPage2.TabIndex = 2;
+            this.btnPage2.Text = "2";
+            this.btnPage2.UseVisualStyleBackColor = false;
+            this.btnPage2.Click += new System.EventHandler(this.Page_Click);
+            this.btnPage2.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            // btnPage3
+            this.btnPage3.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnPage3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPage3.FlatAppearance.BorderSize = 0;
+            this.btnPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPage3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPage3.Location = new System.Drawing.Point(982, 13);
+            this.btnPage3.Name = "btnPage3";
+            this.btnPage3.Size = new System.Drawing.Size(28, 28);
+            this.btnPage3.TabIndex = 3;
+            this.btnPage3.Text = "3";
+            this.btnPage3.UseVisualStyleBackColor = false;
+            this.btnPage3.Click += new System.EventHandler(this.Page_Click);
+            this.btnPage3.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            // btnNext
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNext.FlatAppearance.BorderSize = 0;
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNext.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNext.Location = new System.Drawing.Point(1014, 13);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(28, 28);
+            this.btnNext.TabIndex = 4;
+            this.btnNext.Tag = "\uE76C";
+            this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            // FormFinance
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoScrollMinSize = new System.Drawing.Size(0, 1282);
+            this.BackColor = System.Drawing.Color.FromArgb(245, 247, 251);
+            this.ClientSize = new System.Drawing.Size(1116, 790);
+            this.Controls.Add(this.pnlTable);
+            this.Controls.Add(this.pnlRegistration);
+            this.Controls.Add(this.tlpStats);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.lblDesc);
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.lblEyebrow);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormFinance";
+            this.Text = "Tài chính";
+            this.Load += new System.EventHandler(this.FormFinance_Load);
+            this.tlpStats.ResumeLayout(false);
+            this.pnlRevenue.ResumeLayout(false);
+            this.pnlRevenue.PerformLayout();
+            this.pnlDebt.ResumeLayout(false);
+            this.pnlDebt.PerformLayout();
+            this.pnlInstallments.ResumeLayout(false);
+            this.pnlInstallments.PerformLayout();
+            this.pnlRegistration.ResumeLayout(false);
+            this.pnlRegistrationForm.ResumeLayout(false);
+            this.pnlRegistrationForm.PerformLayout();
+            this.pnlPolicy.ResumeLayout(false);
+            this.pnlInvoice.ResumeLayout(false);
+            this.pnlInvoice.PerformLayout();
+            this.pnlTable.ResumeLayout(false);
+            this.pnlTable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEnrollments)).EndInit();
+            this.pnlFooter.ResumeLayout(false);
+            this.pnlFooter.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblEyebrow;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblDesc;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TableLayoutPanel tlpStats;
+        private System.Windows.Forms.Panel pnlRevenue;
+        private System.Windows.Forms.Label lblRevenue;
+        private System.Windows.Forms.Label lblRevenueValue;
+        private System.Windows.Forms.Label lblRevenueNote;
+        private System.Windows.Forms.Panel pnlDebt;
+        private System.Windows.Forms.Label lblDebt;
+        private System.Windows.Forms.Label lblDebtValue;
+        private System.Windows.Forms.Label lblDebtNote;
+        private System.Windows.Forms.Panel pnlInstallments;
+        private System.Windows.Forms.Label lblInstallments;
+        private System.Windows.Forms.Label lblInstallmentsValue;
+        private System.Windows.Forms.Label lblInstallmentsNote;
+        private System.Windows.Forms.Panel pnlRegistration;
+        private System.Windows.Forms.Panel pnlRegistrationForm;
+        private System.Windows.Forms.Label lblRegistrationTitle;
+        private System.Windows.Forms.Label lblStudent;
+        private System.Windows.Forms.ComboBox cboStudent;
+        private System.Windows.Forms.Label lblClass;
+        private System.Windows.Forms.ComboBox cboClass;
+        private System.Windows.Forms.Panel pnlPolicy;
+        private System.Windows.Forms.CheckBox chkOldStudent;
+        private System.Windows.Forms.CheckBox chkGroup;
+        private System.Windows.Forms.Label lblPlan;
+        private System.Windows.Forms.ComboBox cboPlan;
+        private System.Windows.Forms.Panel pnlInvoice;
+        private System.Windows.Forms.Label lblEstimate;
+        private System.Windows.Forms.Label lblBase;
+        private System.Windows.Forms.Label lblBaseValue;
+        private System.Windows.Forms.Label lblDiscount;
+        private System.Windows.Forms.Label lblDiscountValue;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblTotalValue;
+        private System.Windows.Forms.Label lblInstallmentNote;
+        private System.Windows.Forms.Button btnConfirm;
+        private System.Windows.Forms.Panel pnlTable;
+        private System.Windows.Forms.Label lblRecent;
+        private System.Windows.Forms.DataGridView dgvEnrollments;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStudent;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colClass;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colFee;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPlan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPaid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAction;
+        private System.Windows.Forms.Panel pnlFooter;
+        private System.Windows.Forms.Label lblPageInfo;
+        private System.Windows.Forms.Button btnPrev;
+        private System.Windows.Forms.Button btnPage1;
+        private System.Windows.Forms.Button btnPage2;
+        private System.Windows.Forms.Button btnPage3;
+        private System.Windows.Forms.Button btnNext;
+    }
+}
