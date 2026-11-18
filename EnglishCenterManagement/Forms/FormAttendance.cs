@@ -76,7 +76,8 @@ public partial class FormAttendance : Form
         btnReception.Visible = CanEdit;
         lblWarning.Text = $"{warnings.Count} học viên cần chú ý — vắng quá 3 buổi. Lễ tân cần liên hệ nhắc nhở.";
         int bottom = pnlTable.Bottom;
-        pnlTable.Top = warnings.Count > 0 ? 260 : 188;
+        int gap = pnlWarning.Top - pnlToolbar.Bottom;
+        pnlTable.Top = (warnings.Count > 0 ? pnlWarning.Bottom : pnlToolbar.Bottom) + gap;
         pnlTable.Height = Math.Max(220, bottom - pnlTable.Top);
         pnlWarning.Invalidate(true);
     }

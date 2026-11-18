@@ -15,570 +15,588 @@ namespace EnglishCenterManagement.Forms
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this.btnBack = new System.Windows.Forms.Button();
-            this.pnlCard = new System.Windows.Forms.Panel();
-            this.flpForm = new System.Windows.Forms.FlowLayoutPanel();
-            this.pnlGroupName = new System.Windows.Forms.Panel();
-            this.pnlNameInput = new System.Windows.Forms.Panel();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblNameIcon = new System.Windows.Forms.Label();
-            this.lblName = new System.Windows.Forms.Label();
-            this.pnlGroupEmail = new System.Windows.Forms.Panel();
-            this.pnlEmailInput = new System.Windows.Forms.Panel();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblEmailIcon = new System.Windows.Forms.Label();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.pnlGroupPassword = new System.Windows.Forms.Panel();
-            this.pnlPasswordInput = new System.Windows.Forms.Panel();
-            this.lblShowPassword = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.lblPasswordIcon = new System.Windows.Forms.Label();
-            this.lblPassword = new System.Windows.Forms.Label();
-            this.pnlGroupConfirm = new System.Windows.Forms.Panel();
-            this.pnlConfirmInput = new System.Windows.Forms.Panel();
-            this.txtConfirm = new System.Windows.Forms.TextBox();
-            this.lblConfirmIcon = new System.Windows.Forms.Label();
-            this.lblConfirm = new System.Windows.Forms.Label();
-            this.pnlOptions = new System.Windows.Forms.Panel();
-            this.lblForgot = new System.Windows.Forms.Label();
-            this.chkRemember = new System.Windows.Forms.CheckBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.lblDemo = new System.Windows.Forms.Label();
-            this.pnlTabs = new System.Windows.Forms.Panel();
-            this.btnTabRegister = new System.Windows.Forms.Button();
-            this.btnTabLogin = new System.Windows.Forms.Button();
-            this.lblIntro = new System.Windows.Forms.Label();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblRoleIcon = new System.Windows.Forms.Label();
-            this.lblBrandSub = new System.Windows.Forms.Label();
-            this.lblBrandName = new System.Windows.Forms.Label();
-            this.pnlBrandMark = new System.Windows.Forms.Panel();
-            this.pnlCard.SuspendLayout();
-            this.flpForm.SuspendLayout();
-            this.pnlGroupName.SuspendLayout();
-            this.pnlNameInput.SuspendLayout();
-            this.pnlGroupEmail.SuspendLayout();
-            this.pnlEmailInput.SuspendLayout();
-            this.pnlGroupPassword.SuspendLayout();
-            this.pnlPasswordInput.SuspendLayout();
-            this.pnlGroupConfirm.SuspendLayout();
-            this.pnlConfirmInput.SuspendLayout();
-            this.pnlOptions.SuspendLayout();
-            this.pnlTabs.SuspendLayout();
-            this.SuspendLayout();
+            btnBack = new System.Windows.Forms.Button();
+            pnlCard = new System.Windows.Forms.Panel();
+            pnlGroupName = new System.Windows.Forms.Panel();
+            pnlNameInput = new System.Windows.Forms.Panel();
+            txtName = new System.Windows.Forms.TextBox();
+            lblNameIcon = new System.Windows.Forms.Label();
+            lblName = new System.Windows.Forms.Label();
+            pnlForm = new System.Windows.Forms.Panel();
+            pnlGroupEmail = new System.Windows.Forms.Panel();
+            pnlEmailInput = new System.Windows.Forms.Panel();
+            txtEmail = new System.Windows.Forms.TextBox();
+            lblEmailIcon = new System.Windows.Forms.Label();
+            lblEmail = new System.Windows.Forms.Label();
+            pnlGroupPassword = new System.Windows.Forms.Panel();
+            pnlPasswordInput = new System.Windows.Forms.Panel();
+            lblShowPassword = new System.Windows.Forms.Label();
+            txtPassword = new System.Windows.Forms.TextBox();
+            lblPasswordIcon = new System.Windows.Forms.Label();
+            lblPassword = new System.Windows.Forms.Label();
+            pnlGroupConfirm = new System.Windows.Forms.Panel();
+            pnlConfirmInput = new System.Windows.Forms.Panel();
+            txtConfirm = new System.Windows.Forms.TextBox();
+            lblConfirmIcon = new System.Windows.Forms.Label();
+            lblConfirm = new System.Windows.Forms.Label();
+            pnlOptions = new System.Windows.Forms.Panel();
+            lblForgot = new System.Windows.Forms.Label();
+            chkRemember = new System.Windows.Forms.CheckBox();
+            btnSubmit = new System.Windows.Forms.Button();
+            lblDemo = new System.Windows.Forms.Label();
+            pnlTabs = new System.Windows.Forms.Panel();
+            btnTabRegister = new System.Windows.Forms.Button();
+            btnTabLogin = new System.Windows.Forms.Button();
+            lblIntro = new System.Windows.Forms.Label();
+            lblTitle = new System.Windows.Forms.Label();
+            lblRoleIcon = new System.Windows.Forms.Label();
+            lblBrandSub = new System.Windows.Forms.Label();
+            lblBrandName = new System.Windows.Forms.Label();
+            pnlBrandMark = new System.Windows.Forms.Panel();
+            pnlCard.SuspendLayout();
+            pnlGroupName.SuspendLayout();
+            pnlNameInput.SuspendLayout();
+            pnlForm.SuspendLayout();
+            pnlGroupEmail.SuspendLayout();
+            pnlEmailInput.SuspendLayout();
+            pnlGroupPassword.SuspendLayout();
+            pnlPasswordInput.SuspendLayout();
+            pnlGroupConfirm.SuspendLayout();
+            pnlConfirmInput.SuspendLayout();
+            pnlOptions.SuspendLayout();
+            pnlTabs.SuspendLayout();
+            SuspendLayout();
             // 
             // btnBack
             // 
-            this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBack.FlatAppearance.BorderSize = 0;
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBack.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.btnBack.Location = new System.Drawing.Point(32, 28);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(190, 36);
-            this.btnBack.TabIndex = 1;
-            this.btnBack.Tag = "\uE76B";
-            this.btnBack.Text = "Quay lại chọn vai trò";
-            this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            this.btnBack.Paint += new System.Windows.Forms.PaintEventHandler(this.btnBack_Paint);
+            btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnBack.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F);
+            btnBack.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            btnBack.Location = new System.Drawing.Point(37, 37);
+            btnBack.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new System.Drawing.Size(217, 48);
+            btnBack.TabIndex = 1;
+            btnBack.Tag = "";
+            btnBack.Text = "Quay lại chọn vai trò";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
+            btnBack.Paint += btnBack_Paint;
             // 
             // pnlCard
             // 
-            this.pnlCard.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnlCard.BackColor = System.Drawing.Color.White;
-            this.pnlCard.Controls.Add(this.flpForm);
-            this.pnlCard.Controls.Add(this.pnlTabs);
-            this.pnlCard.Controls.Add(this.lblIntro);
-            this.pnlCard.Controls.Add(this.lblTitle);
-            this.pnlCard.Controls.Add(this.lblRoleIcon);
-            this.pnlCard.Controls.Add(this.lblBrandSub);
-            this.pnlCard.Controls.Add(this.lblBrandName);
-            this.pnlCard.Controls.Add(this.pnlBrandMark);
-            this.pnlCard.Location = new System.Drawing.Point(465, 96);
-            this.pnlCard.Name = "pnlCard";
-            this.pnlCard.Size = new System.Drawing.Size(430, 668);
-            this.pnlCard.TabIndex = 0;
-            this.pnlCard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCard_Paint);
-            // 
-            // pnlBrandMark
-            // 
-            this.pnlBrandMark.BackColor = System.Drawing.Color.White;
-            this.pnlBrandMark.Location = new System.Drawing.Point(36, 34);
-            this.pnlBrandMark.Name = "pnlBrandMark";
-            this.pnlBrandMark.Size = new System.Drawing.Size(34, 34);
-            this.pnlBrandMark.TabIndex = 0;
-            this.pnlBrandMark.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBrandMark_Paint);
-            // 
-            // lblBrandName
-            // 
-            this.lblBrandName.AutoSize = true;
-            this.lblBrandName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblBrandName.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
-            this.lblBrandName.Location = new System.Drawing.Point(77, 33);
-            this.lblBrandName.Name = "lblBrandName";
-            this.lblBrandName.Size = new System.Drawing.Size(84, 20);
-            this.lblBrandName.TabIndex = 1;
-            this.lblBrandName.Text = "EduCenter";
-            // 
-            // lblBrandSub
-            // 
-            this.lblBrandSub.AutoSize = true;
-            this.lblBrandSub.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblBrandSub.ForeColor = System.Drawing.Color.FromArgb(143, 155, 172);
-            this.lblBrandSub.Location = new System.Drawing.Point(79, 55);
-            this.lblBrandSub.Name = "lblBrandSub";
-            this.lblBrandSub.Size = new System.Drawing.Size(111, 12);
-            this.lblBrandSub.TabIndex = 2;
-            this.lblBrandSub.Text = "ENGLISH MANAGEMENT";
-            // 
-            // lblRoleIcon
-            // 
-            this.lblRoleIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblRoleIcon.ForeColor = System.Drawing.Color.FromArgb(38, 124, 199);
-            this.lblRoleIcon.Location = new System.Drawing.Point(36, 94);
-            this.lblRoleIcon.Name = "lblRoleIcon";
-            this.lblRoleIcon.Size = new System.Drawing.Size(44, 44);
-            this.lblRoleIcon.TabIndex = 3;
-            this.lblRoleIcon.Tag = "#e8f4ff";
-            this.lblRoleIcon.Text = "\uE7EF";
-            this.lblRoleIcon.Paint += new System.Windows.Forms.PaintEventHandler(this.lblRoleIcon_Paint);
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
-            this.lblTitle.Location = new System.Drawing.Point(32, 148);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(244, 28);
-            this.lblTitle.TabIndex = 4;
-            this.lblTitle.Text = "Đăng nhập Quản trị viên";
-            // 
-            // lblIntro
-            // 
-            this.lblIntro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblIntro.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
-            this.lblIntro.Location = new System.Drawing.Point(36, 182);
-            this.lblIntro.Name = "lblIntro";
-            this.lblIntro.Size = new System.Drawing.Size(358, 36);
-            this.lblIntro.TabIndex = 5;
-            this.lblIntro.Text = "Quản lý toàn bộ hoạt động đào tạo, học viên và tài chính của trung tâm.";
-            // 
-            // pnlTabs
-            // 
-            this.pnlTabs.BackColor = System.Drawing.Color.FromArgb(240, 243, 246);
-            this.pnlTabs.Controls.Add(this.btnTabRegister);
-            this.pnlTabs.Controls.Add(this.btnTabLogin);
-            this.pnlTabs.Location = new System.Drawing.Point(36, 226);
-            this.pnlTabs.Name = "pnlTabs";
-            this.pnlTabs.Size = new System.Drawing.Size(358, 40);
-            this.pnlTabs.TabIndex = 6;
-            this.pnlTabs.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTabs_Paint);
-            // 
-            // btnTabLogin
-            // 
-            this.btnTabLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTabLogin.FlatAppearance.BorderSize = 0;
-            this.btnTabLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTabLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTabLogin.Location = new System.Drawing.Point(4, 4);
-            this.btnTabLogin.Name = "btnTabLogin";
-            this.btnTabLogin.Size = new System.Drawing.Size(174, 32);
-            this.btnTabLogin.TabIndex = 0;
-            this.btnTabLogin.TabStop = false;
-            this.btnTabLogin.Text = "Đăng nhập";
-            this.btnTabLogin.UseVisualStyleBackColor = false;
-            this.btnTabLogin.Click += new System.EventHandler(this.btnTabLogin_Click);
-            this.btnTabLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.Tab_Paint);
-            // 
-            // btnTabRegister
-            // 
-            this.btnTabRegister.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTabRegister.FlatAppearance.BorderSize = 0;
-            this.btnTabRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTabRegister.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTabRegister.Location = new System.Drawing.Point(180, 4);
-            this.btnTabRegister.Name = "btnTabRegister";
-            this.btnTabRegister.Size = new System.Drawing.Size(174, 32);
-            this.btnTabRegister.TabIndex = 1;
-            this.btnTabRegister.TabStop = false;
-            this.btnTabRegister.Text = "Đăng ký";
-            this.btnTabRegister.UseVisualStyleBackColor = false;
-            this.btnTabRegister.Click += new System.EventHandler(this.btnTabRegister_Click);
-            this.btnTabRegister.Paint += new System.Windows.Forms.PaintEventHandler(this.Tab_Paint);
-            // 
-            // flpForm
-            // 
-            this.flpForm.Controls.Add(this.pnlGroupName);
-            this.flpForm.Controls.Add(this.pnlGroupEmail);
-            this.flpForm.Controls.Add(this.pnlGroupPassword);
-            this.flpForm.Controls.Add(this.pnlGroupConfirm);
-            this.flpForm.Controls.Add(this.pnlOptions);
-            this.flpForm.Controls.Add(this.btnSubmit);
-            this.flpForm.Controls.Add(this.lblDemo);
-            this.flpForm.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpForm.Location = new System.Drawing.Point(36, 282);
-            this.flpForm.Name = "flpForm";
-            this.flpForm.Size = new System.Drawing.Size(360, 374);
-            this.flpForm.TabIndex = 7;
-            this.flpForm.WrapContents = false;
+            pnlCard.Anchor = System.Windows.Forms.AnchorStyles.None;
+            pnlCard.BackColor = System.Drawing.Color.White;
+            pnlCard.Controls.Add(pnlGroupName);
+            pnlCard.Controls.Add(pnlForm);
+            pnlCard.Controls.Add(pnlTabs);
+            pnlCard.Controls.Add(lblIntro);
+            pnlCard.Controls.Add(lblTitle);
+            pnlCard.Controls.Add(lblRoleIcon);
+            pnlCard.Controls.Add(lblBrandSub);
+            pnlCard.Controls.Add(lblBrandName);
+            pnlCard.Controls.Add(pnlBrandMark);
+            pnlCard.Location = new System.Drawing.Point(531, 128);
+            pnlCard.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlCard.Name = "pnlCard";
+            pnlCard.Size = new System.Drawing.Size(491, 891);
+            pnlCard.TabIndex = 0;
+            pnlCard.Paint += pnlCard_Paint;
             // 
             // pnlGroupName
             // 
-            this.pnlGroupName.Controls.Add(this.pnlNameInput);
-            this.pnlGroupName.Controls.Add(this.lblName);
-            this.pnlGroupName.Location = new System.Drawing.Point(0, 0);
-            this.pnlGroupName.Margin = new System.Windows.Forms.Padding(0, 0, 0, 8);
-            this.pnlGroupName.Name = "pnlGroupName";
-            this.pnlGroupName.Size = new System.Drawing.Size(358, 62);
-            this.pnlGroupName.TabIndex = 0;
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblName.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.lblName.Location = new System.Drawing.Point(0, 0);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(58, 13);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Họ và tên";
+            pnlGroupName.Controls.Add(pnlNameInput);
+            pnlGroupName.Controls.Add(lblName);
+            pnlGroupName.Location = new System.Drawing.Point(44, 376);
+            pnlGroupName.Margin = new System.Windows.Forms.Padding(0, 0, 0, 11);
+            pnlGroupName.Name = "pnlGroupName";
+            pnlGroupName.Size = new System.Drawing.Size(409, 83);
+            pnlGroupName.TabIndex = 0;
             // 
             // pnlNameInput
             // 
-            this.pnlNameInput.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlNameInput.Controls.Add(this.txtName);
-            this.pnlNameInput.Controls.Add(this.lblNameIcon);
-            this.pnlNameInput.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlNameInput.Location = new System.Drawing.Point(0, 20);
-            this.pnlNameInput.Name = "pnlNameInput";
-            this.pnlNameInput.Size = new System.Drawing.Size(358, 40);
-            this.pnlNameInput.TabIndex = 1;
-            this.pnlNameInput.Click += new System.EventHandler(this.Input_Click);
-            this.pnlNameInput.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
-            // 
-            // lblNameIcon
-            // 
-            this.lblNameIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblNameIcon.ForeColor = System.Drawing.Color.FromArgb(152, 162, 176);
-            this.lblNameIcon.Location = new System.Drawing.Point(10, 2);
-            this.lblNameIcon.Name = "lblNameIcon";
-            this.lblNameIcon.Size = new System.Drawing.Size(24, 36);
-            this.lblNameIcon.TabIndex = 0;
-            this.lblNameIcon.Text = "\uE77B";
-            this.lblNameIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            pnlNameInput.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlNameInput.Controls.Add(txtName);
+            pnlNameInput.Controls.Add(lblNameIcon);
+            pnlNameInput.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlNameInput.Location = new System.Drawing.Point(0, 27);
+            pnlNameInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlNameInput.Name = "pnlNameInput";
+            pnlNameInput.Size = new System.Drawing.Size(409, 53);
+            pnlNameInput.TabIndex = 1;
+            pnlNameInput.Click += Input_Click;
+            pnlNameInput.Paint += Input_Paint;
             // 
             // txtName
             // 
-            this.txtName.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtName.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtName.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtName.Location = new System.Drawing.Point(40, 11);
-            this.txtName.Name = "txtName";
-            this.txtName.PlaceholderText = "Nguyễn Văn An";
-            this.txtName.Size = new System.Drawing.Size(306, 18);
-            this.txtName.TabIndex = 1;
+            txtName.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtName.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            txtName.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtName.Location = new System.Drawing.Point(47, 18);
+            txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtName.Name = "txtName";
+            txtName.PlaceholderText = "Nguyễn Văn An";
+            txtName.Size = new System.Drawing.Size(350, 22);
+            txtName.TabIndex = 1;
+            // 
+            // lblNameIcon
+            // 
+            lblNameIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F);
+            lblNameIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)152)), ((int)((byte)162)), ((int)((byte)176)));
+            lblNameIcon.Location = new System.Drawing.Point(11, 3);
+            lblNameIcon.Name = "lblNameIcon";
+            lblNameIcon.Size = new System.Drawing.Size(27, 48);
+            lblNameIcon.TabIndex = 0;
+            lblNameIcon.Text = "";
+            lblNameIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblName
+            // 
+            lblName.AutoSize = true;
+            lblName.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F);
+            lblName.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            lblName.Location = new System.Drawing.Point(0, 0);
+            lblName.Name = "lblName";
+            lblName.Size = new System.Drawing.Size(69, 19);
+            lblName.TabIndex = 0;
+            lblName.Text = "Họ và tên";
+            // 
+            // pnlForm
+            // 
+            pnlForm.Controls.Add(pnlGroupEmail);
+            pnlForm.Controls.Add(pnlGroupPassword);
+            pnlForm.Controls.Add(pnlGroupConfirm);
+            pnlForm.Controls.Add(pnlOptions);
+            pnlForm.Controls.Add(btnSubmit);
+            pnlForm.Controls.Add(lblDemo);
+            pnlForm.Location = new System.Drawing.Point(41, 376);
+            pnlForm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlForm.Name = "pnlForm";
+            pnlForm.Size = new System.Drawing.Size(411, 499);
+            pnlForm.TabIndex = 7;
             // 
             // pnlGroupEmail
             // 
-            this.pnlGroupEmail.Controls.Add(this.pnlEmailInput);
-            this.pnlGroupEmail.Controls.Add(this.lblEmail);
-            this.pnlGroupEmail.Location = new System.Drawing.Point(0, 70);
-            this.pnlGroupEmail.Margin = new System.Windows.Forms.Padding(0, 0, 0, 8);
-            this.pnlGroupEmail.Name = "pnlGroupEmail";
-            this.pnlGroupEmail.Size = new System.Drawing.Size(358, 62);
-            this.pnlGroupEmail.TabIndex = 1;
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblEmail.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.lblEmail.Location = new System.Drawing.Point(0, 0);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(34, 13);
-            this.lblEmail.TabIndex = 0;
-            this.lblEmail.Text = "Email";
+            pnlGroupEmail.Controls.Add(pnlEmailInput);
+            pnlGroupEmail.Controls.Add(lblEmail);
+            pnlGroupEmail.Location = new System.Drawing.Point(0, 94);
+            pnlGroupEmail.Margin = new System.Windows.Forms.Padding(0, 0, 0, 11);
+            pnlGroupEmail.Name = "pnlGroupEmail";
+            pnlGroupEmail.Size = new System.Drawing.Size(409, 83);
+            pnlGroupEmail.TabIndex = 1;
             // 
             // pnlEmailInput
             // 
-            this.pnlEmailInput.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlEmailInput.Controls.Add(this.txtEmail);
-            this.pnlEmailInput.Controls.Add(this.lblEmailIcon);
-            this.pnlEmailInput.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlEmailInput.Location = new System.Drawing.Point(0, 20);
-            this.pnlEmailInput.Name = "pnlEmailInput";
-            this.pnlEmailInput.Size = new System.Drawing.Size(358, 40);
-            this.pnlEmailInput.TabIndex = 1;
-            this.pnlEmailInput.Click += new System.EventHandler(this.Input_Click);
-            this.pnlEmailInput.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
-            // 
-            // lblEmailIcon
-            // 
-            this.lblEmailIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblEmailIcon.ForeColor = System.Drawing.Color.FromArgb(152, 162, 176);
-            this.lblEmailIcon.Location = new System.Drawing.Point(10, 2);
-            this.lblEmailIcon.Name = "lblEmailIcon";
-            this.lblEmailIcon.Size = new System.Drawing.Size(24, 36);
-            this.lblEmailIcon.TabIndex = 0;
-            this.lblEmailIcon.Text = "\uE715";
-            this.lblEmailIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            pnlEmailInput.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlEmailInput.Controls.Add(txtEmail);
+            pnlEmailInput.Controls.Add(lblEmailIcon);
+            pnlEmailInput.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlEmailInput.Location = new System.Drawing.Point(0, 27);
+            pnlEmailInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlEmailInput.Name = "pnlEmailInput";
+            pnlEmailInput.Size = new System.Drawing.Size(409, 53);
+            pnlEmailInput.TabIndex = 1;
+            pnlEmailInput.Click += Input_Click;
+            pnlEmailInput.Paint += Input_Paint;
             // 
             // txtEmail
             // 
-            this.txtEmail.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtEmail.Location = new System.Drawing.Point(40, 11);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.PlaceholderText = "ten@northstar.vn";
-            this.txtEmail.Size = new System.Drawing.Size(306, 18);
-            this.txtEmail.TabIndex = 1;
+            txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtEmail.Location = new System.Drawing.Point(46, 15);
+            txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtEmail.Name = "txtEmail";
+            txtEmail.PlaceholderText = "ten@northstar.vn";
+            txtEmail.Size = new System.Drawing.Size(350, 22);
+            txtEmail.TabIndex = 1;
+            // 
+            // lblEmailIcon
+            // 
+            lblEmailIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F);
+            lblEmailIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)152)), ((int)((byte)162)), ((int)((byte)176)));
+            lblEmailIcon.Location = new System.Drawing.Point(11, 3);
+            lblEmailIcon.Name = "lblEmailIcon";
+            lblEmailIcon.Size = new System.Drawing.Size(27, 48);
+            lblEmailIcon.TabIndex = 0;
+            lblEmailIcon.Text = "";
+            lblEmailIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblEmail
+            // 
+            lblEmail.AutoSize = true;
+            lblEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F);
+            lblEmail.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            lblEmail.Location = new System.Drawing.Point(0, 0);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new System.Drawing.Size(43, 19);
+            lblEmail.TabIndex = 0;
+            lblEmail.Text = "Email";
             // 
             // pnlGroupPassword
             // 
-            this.pnlGroupPassword.Controls.Add(this.pnlPasswordInput);
-            this.pnlGroupPassword.Controls.Add(this.lblPassword);
-            this.pnlGroupPassword.Location = new System.Drawing.Point(0, 140);
-            this.pnlGroupPassword.Margin = new System.Windows.Forms.Padding(0, 0, 0, 8);
-            this.pnlGroupPassword.Name = "pnlGroupPassword";
-            this.pnlGroupPassword.Size = new System.Drawing.Size(358, 62);
-            this.pnlGroupPassword.TabIndex = 2;
-            // 
-            // lblPassword
-            // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.lblPassword.Location = new System.Drawing.Point(0, 0);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(55, 13);
-            this.lblPassword.TabIndex = 0;
-            this.lblPassword.Text = "Mật khẩu";
+            pnlGroupPassword.Controls.Add(pnlPasswordInput);
+            pnlGroupPassword.Controls.Add(lblPassword);
+            pnlGroupPassword.Location = new System.Drawing.Point(0, 188);
+            pnlGroupPassword.Margin = new System.Windows.Forms.Padding(0, 0, 0, 11);
+            pnlGroupPassword.Name = "pnlGroupPassword";
+            pnlGroupPassword.Size = new System.Drawing.Size(409, 83);
+            pnlGroupPassword.TabIndex = 2;
             // 
             // pnlPasswordInput
             // 
-            this.pnlPasswordInput.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlPasswordInput.Controls.Add(this.lblShowPassword);
-            this.pnlPasswordInput.Controls.Add(this.txtPassword);
-            this.pnlPasswordInput.Controls.Add(this.lblPasswordIcon);
-            this.pnlPasswordInput.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlPasswordInput.Location = new System.Drawing.Point(0, 20);
-            this.pnlPasswordInput.Name = "pnlPasswordInput";
-            this.pnlPasswordInput.Size = new System.Drawing.Size(358, 40);
-            this.pnlPasswordInput.TabIndex = 1;
-            this.pnlPasswordInput.Click += new System.EventHandler(this.Input_Click);
-            this.pnlPasswordInput.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
-            // 
-            // lblPasswordIcon
-            // 
-            this.lblPasswordIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblPasswordIcon.ForeColor = System.Drawing.Color.FromArgb(152, 162, 176);
-            this.lblPasswordIcon.Location = new System.Drawing.Point(10, 2);
-            this.lblPasswordIcon.Name = "lblPasswordIcon";
-            this.lblPasswordIcon.Size = new System.Drawing.Size(24, 36);
-            this.lblPasswordIcon.TabIndex = 0;
-            this.lblPasswordIcon.Text = "\uE72E";
-            this.lblPasswordIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtPassword.Location = new System.Drawing.Point(40, 11);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PlaceholderText = "Tối thiểu 8 ký tự";
-            this.txtPassword.Size = new System.Drawing.Size(262, 18);
-            this.txtPassword.TabIndex = 1;
-            this.txtPassword.UseSystemPasswordChar = true;
+            pnlPasswordInput.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlPasswordInput.Controls.Add(lblShowPassword);
+            pnlPasswordInput.Controls.Add(txtPassword);
+            pnlPasswordInput.Controls.Add(lblPasswordIcon);
+            pnlPasswordInput.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlPasswordInput.Location = new System.Drawing.Point(0, 27);
+            pnlPasswordInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlPasswordInput.Name = "pnlPasswordInput";
+            pnlPasswordInput.Size = new System.Drawing.Size(409, 53);
+            pnlPasswordInput.TabIndex = 1;
+            pnlPasswordInput.Click += Input_Click;
+            pnlPasswordInput.Paint += Input_Paint;
             // 
             // lblShowPassword
             // 
-            this.lblShowPassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblShowPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblShowPassword.ForeColor = System.Drawing.Color.FromArgb(39, 125, 198);
-            this.lblShowPassword.Location = new System.Drawing.Point(306, 2);
-            this.lblShowPassword.Name = "lblShowPassword";
-            this.lblShowPassword.Size = new System.Drawing.Size(44, 36);
-            this.lblShowPassword.TabIndex = 2;
-            this.lblShowPassword.Text = "Hiện";
-            this.lblShowPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblShowPassword.Click += new System.EventHandler(this.lblShowPassword_Click);
+            lblShowPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            lblShowPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblShowPassword.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)39)), ((int)((byte)125)), ((int)((byte)198)));
+            lblShowPassword.Location = new System.Drawing.Point(350, 3);
+            lblShowPassword.Name = "lblShowPassword";
+            lblShowPassword.Size = new System.Drawing.Size(50, 48);
+            lblShowPassword.TabIndex = 2;
+            lblShowPassword.Text = "Hiện";
+            lblShowPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblShowPassword.Click += lblShowPassword_Click;
+            // 
+            // txtPassword
+            // 
+            txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtPassword.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtPassword.Location = new System.Drawing.Point(46, 15);
+            txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PlaceholderText = "Tối thiểu 8 ký tự";
+            txtPassword.Size = new System.Drawing.Size(299, 22);
+            txtPassword.TabIndex = 1;
+            txtPassword.UseSystemPasswordChar = true;
+            // 
+            // lblPasswordIcon
+            // 
+            lblPasswordIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F);
+            lblPasswordIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)152)), ((int)((byte)162)), ((int)((byte)176)));
+            lblPasswordIcon.Location = new System.Drawing.Point(11, 3);
+            lblPasswordIcon.Name = "lblPasswordIcon";
+            lblPasswordIcon.Size = new System.Drawing.Size(27, 48);
+            lblPasswordIcon.TabIndex = 0;
+            lblPasswordIcon.Text = "";
+            lblPasswordIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPassword
+            // 
+            lblPassword.AutoSize = true;
+            lblPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F);
+            lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            lblPassword.Location = new System.Drawing.Point(0, 0);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new System.Drawing.Size(68, 19);
+            lblPassword.TabIndex = 0;
+            lblPassword.Text = "Mật khẩu";
             // 
             // pnlGroupConfirm
             // 
-            this.pnlGroupConfirm.Controls.Add(this.pnlConfirmInput);
-            this.pnlGroupConfirm.Controls.Add(this.lblConfirm);
-            this.pnlGroupConfirm.Location = new System.Drawing.Point(0, 210);
-            this.pnlGroupConfirm.Margin = new System.Windows.Forms.Padding(0, 0, 0, 8);
-            this.pnlGroupConfirm.Name = "pnlGroupConfirm";
-            this.pnlGroupConfirm.Size = new System.Drawing.Size(358, 62);
-            this.pnlGroupConfirm.TabIndex = 3;
-            // 
-            // lblConfirm
-            // 
-            this.lblConfirm.AutoSize = true;
-            this.lblConfirm.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblConfirm.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.lblConfirm.Location = new System.Drawing.Point(0, 0);
-            this.lblConfirm.Name = "lblConfirm";
-            this.lblConfirm.Size = new System.Drawing.Size(107, 13);
-            this.lblConfirm.TabIndex = 0;
-            this.lblConfirm.Text = "Xác nhận mật khẩu";
+            pnlGroupConfirm.Controls.Add(pnlConfirmInput);
+            pnlGroupConfirm.Controls.Add(lblConfirm);
+            pnlGroupConfirm.Location = new System.Drawing.Point(0, 282);
+            pnlGroupConfirm.Margin = new System.Windows.Forms.Padding(0, 0, 0, 11);
+            pnlGroupConfirm.Name = "pnlGroupConfirm";
+            pnlGroupConfirm.Size = new System.Drawing.Size(409, 83);
+            pnlGroupConfirm.TabIndex = 3;
             // 
             // pnlConfirmInput
             // 
-            this.pnlConfirmInput.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlConfirmInput.Controls.Add(this.txtConfirm);
-            this.pnlConfirmInput.Controls.Add(this.lblConfirmIcon);
-            this.pnlConfirmInput.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlConfirmInput.Location = new System.Drawing.Point(0, 20);
-            this.pnlConfirmInput.Name = "pnlConfirmInput";
-            this.pnlConfirmInput.Size = new System.Drawing.Size(358, 40);
-            this.pnlConfirmInput.TabIndex = 1;
-            this.pnlConfirmInput.Click += new System.EventHandler(this.Input_Click);
-            this.pnlConfirmInput.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
-            // 
-            // lblConfirmIcon
-            // 
-            this.lblConfirmIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblConfirmIcon.ForeColor = System.Drawing.Color.FromArgb(152, 162, 176);
-            this.lblConfirmIcon.Location = new System.Drawing.Point(10, 2);
-            this.lblConfirmIcon.Name = "lblConfirmIcon";
-            this.lblConfirmIcon.Size = new System.Drawing.Size(24, 36);
-            this.lblConfirmIcon.TabIndex = 0;
-            this.lblConfirmIcon.Text = "\uE72E";
-            this.lblConfirmIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            pnlConfirmInput.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlConfirmInput.Controls.Add(txtConfirm);
+            pnlConfirmInput.Controls.Add(lblConfirmIcon);
+            pnlConfirmInput.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlConfirmInput.Location = new System.Drawing.Point(0, 27);
+            pnlConfirmInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlConfirmInput.Name = "pnlConfirmInput";
+            pnlConfirmInput.Size = new System.Drawing.Size(409, 53);
+            pnlConfirmInput.TabIndex = 1;
+            pnlConfirmInput.Click += Input_Click;
+            pnlConfirmInput.Paint += Input_Paint;
             // 
             // txtConfirm
             // 
-            this.txtConfirm.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtConfirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConfirm.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConfirm.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtConfirm.Location = new System.Drawing.Point(40, 11);
-            this.txtConfirm.Name = "txtConfirm";
-            this.txtConfirm.PlaceholderText = "Nhập lại mật khẩu";
-            this.txtConfirm.Size = new System.Drawing.Size(306, 18);
-            this.txtConfirm.TabIndex = 1;
-            this.txtConfirm.UseSystemPasswordChar = true;
+            txtConfirm.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtConfirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtConfirm.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            txtConfirm.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtConfirm.Location = new System.Drawing.Point(46, 15);
+            txtConfirm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtConfirm.Name = "txtConfirm";
+            txtConfirm.PlaceholderText = "Nhập lại mật khẩu";
+            txtConfirm.Size = new System.Drawing.Size(350, 22);
+            txtConfirm.TabIndex = 1;
+            txtConfirm.UseSystemPasswordChar = true;
+            // 
+            // lblConfirmIcon
+            // 
+            lblConfirmIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9.75F);
+            lblConfirmIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)152)), ((int)((byte)162)), ((int)((byte)176)));
+            lblConfirmIcon.Location = new System.Drawing.Point(11, 3);
+            lblConfirmIcon.Name = "lblConfirmIcon";
+            lblConfirmIcon.Size = new System.Drawing.Size(27, 48);
+            lblConfirmIcon.TabIndex = 0;
+            lblConfirmIcon.Text = "";
+            lblConfirmIcon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblConfirm
+            // 
+            lblConfirm.AutoSize = true;
+            lblConfirm.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F);
+            lblConfirm.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            lblConfirm.Location = new System.Drawing.Point(0, 0);
+            lblConfirm.Name = "lblConfirm";
+            lblConfirm.Size = new System.Drawing.Size(129, 19);
+            lblConfirm.TabIndex = 0;
+            lblConfirm.Text = "Xác nhận mật khẩu";
             // 
             // pnlOptions
             // 
-            this.pnlOptions.Controls.Add(this.lblForgot);
-            this.pnlOptions.Controls.Add(this.chkRemember);
-            this.pnlOptions.Location = new System.Drawing.Point(0, 280);
-            this.pnlOptions.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
-            this.pnlOptions.Name = "pnlOptions";
-            this.pnlOptions.Size = new System.Drawing.Size(358, 28);
-            this.pnlOptions.TabIndex = 4;
-            // 
-            // chkRemember
-            // 
-            this.chkRemember.AutoSize = true;
-            this.chkRemember.Checked = true;
-            this.chkRemember.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkRemember.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkRemember.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.chkRemember.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.chkRemember.Location = new System.Drawing.Point(0, 5);
-            this.chkRemember.Name = "chkRemember";
-            this.chkRemember.Size = new System.Drawing.Size(124, 17);
-            this.chkRemember.TabIndex = 0;
-            this.chkRemember.Text = "Ghi nhớ đăng nhập";
-            this.chkRemember.UseVisualStyleBackColor = true;
+            pnlOptions.Controls.Add(lblForgot);
+            pnlOptions.Controls.Add(chkRemember);
+            pnlOptions.Location = new System.Drawing.Point(0, 376);
+            pnlOptions.Margin = new System.Windows.Forms.Padding(0, 0, 0, 8);
+            pnlOptions.Name = "pnlOptions";
+            pnlOptions.Size = new System.Drawing.Size(409, 37);
+            pnlOptions.TabIndex = 4;
             // 
             // lblForgot
             // 
-            this.lblForgot.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblForgot.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblForgot.ForeColor = System.Drawing.Color.FromArgb(39, 125, 198);
-            this.lblForgot.Location = new System.Drawing.Point(238, 4);
-            this.lblForgot.Name = "lblForgot";
-            this.lblForgot.Size = new System.Drawing.Size(120, 20);
-            this.lblForgot.TabIndex = 1;
-            this.lblForgot.Text = "Quên mật khẩu?";
-            this.lblForgot.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblForgot.Click += new System.EventHandler(this.lblForgot_Click);
+            lblForgot.Cursor = System.Windows.Forms.Cursors.Hand;
+            lblForgot.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblForgot.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)39)), ((int)((byte)125)), ((int)((byte)198)));
+            lblForgot.Location = new System.Drawing.Point(272, 5);
+            lblForgot.Name = "lblForgot";
+            lblForgot.Size = new System.Drawing.Size(137, 27);
+            lblForgot.TabIndex = 1;
+            lblForgot.Text = "Quên mật khẩu?";
+            lblForgot.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblForgot.Click += lblForgot_Click;
+            // 
+            // chkRemember
+            // 
+            chkRemember.AutoSize = true;
+            chkRemember.Checked = true;
+            chkRemember.CheckState = System.Windows.Forms.CheckState.Checked;
+            chkRemember.Cursor = System.Windows.Forms.Cursors.Hand;
+            chkRemember.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            chkRemember.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            chkRemember.Location = new System.Drawing.Point(0, 7);
+            chkRemember.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            chkRemember.Name = "chkRemember";
+            chkRemember.Size = new System.Drawing.Size(150, 23);
+            chkRemember.TabIndex = 0;
+            chkRemember.Text = "Ghi nhớ đăng nhập";
+            chkRemember.UseVisualStyleBackColor = true;
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSubmit.FlatAppearance.BorderSize = 0;
-            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(0, 320);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(0, 6, 0, 12);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(358, 42);
-            this.btnSubmit.TabIndex = 5;
-            this.btnSubmit.Text = "Đăng nhập  →";
-            this.btnSubmit.UseVisualStyleBackColor = false;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
-            this.btnSubmit.Paint += new System.Windows.Forms.PaintEventHandler(this.btnSubmit_Paint);
+            btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnSubmit.FlatAppearance.BorderSize = 0;
+            btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            btnSubmit.ForeColor = System.Drawing.Color.White;
+            btnSubmit.Location = new System.Drawing.Point(0, 429);
+            btnSubmit.Margin = new System.Windows.Forms.Padding(0, 8, 0, 16);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new System.Drawing.Size(409, 56);
+            btnSubmit.TabIndex = 5;
+            btnSubmit.Text = "Đăng nhập  →";
+            btnSubmit.UseVisualStyleBackColor = false;
+            btnSubmit.Click += btnSubmit_Click;
+            btnSubmit.Paint += btnSubmit_Paint;
             // 
             // lblDemo
             // 
-            this.lblDemo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDemo.ForeColor = System.Drawing.Color.FromArgb(82, 97, 118);
-            this.lblDemo.Location = new System.Drawing.Point(0, 374);
-            this.lblDemo.Margin = new System.Windows.Forms.Padding(0);
-            this.lblDemo.Name = "lblDemo";
-            this.lblDemo.Size = new System.Drawing.Size(358, 46);
-            this.lblDemo.TabIndex = 6;
-            this.lblDemo.Text = "Tài khoản demo: admin@northstar.vn · Mật khẩu: 12345678";
-            this.lblDemo.Paint += new System.Windows.Forms.PaintEventHandler(this.lblDemo_Paint);
+            lblDemo.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            lblDemo.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)82)), ((int)((byte)97)), ((int)((byte)118)));
+            lblDemo.Location = new System.Drawing.Point(0, 501);
+            lblDemo.Margin = new System.Windows.Forms.Padding(0);
+            lblDemo.Name = "lblDemo";
+            lblDemo.Size = new System.Drawing.Size(409, 61);
+            lblDemo.TabIndex = 6;
+            lblDemo.Text = "Tài khoản demo: admin@northstar.vn · Mật khẩu: 12345678";
+            lblDemo.Paint += lblDemo_Paint;
+            // 
+            // pnlTabs
+            // 
+            pnlTabs.BackColor = System.Drawing.Color.FromArgb(((int)((byte)240)), ((int)((byte)243)), ((int)((byte)246)));
+            pnlTabs.Controls.Add(btnTabRegister);
+            pnlTabs.Controls.Add(btnTabLogin);
+            pnlTabs.Location = new System.Drawing.Point(41, 301);
+            pnlTabs.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlTabs.Name = "pnlTabs";
+            pnlTabs.Size = new System.Drawing.Size(409, 53);
+            pnlTabs.TabIndex = 6;
+            pnlTabs.Paint += pnlTabs_Paint;
+            // 
+            // btnTabRegister
+            // 
+            btnTabRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnTabRegister.FlatAppearance.BorderSize = 0;
+            btnTabRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnTabRegister.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnTabRegister.Location = new System.Drawing.Point(206, 5);
+            btnTabRegister.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnTabRegister.Name = "btnTabRegister";
+            btnTabRegister.Size = new System.Drawing.Size(199, 43);
+            btnTabRegister.TabIndex = 1;
+            btnTabRegister.TabStop = false;
+            btnTabRegister.Text = "Đăng ký";
+            btnTabRegister.UseVisualStyleBackColor = false;
+            btnTabRegister.Click += btnTabRegister_Click;
+            btnTabRegister.Paint += Tab_Paint;
+            // 
+            // btnTabLogin
+            // 
+            btnTabLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnTabLogin.FlatAppearance.BorderSize = 0;
+            btnTabLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnTabLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnTabLogin.Location = new System.Drawing.Point(3, 6);
+            btnTabLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnTabLogin.Name = "btnTabLogin";
+            btnTabLogin.Size = new System.Drawing.Size(199, 43);
+            btnTabLogin.TabIndex = 0;
+            btnTabLogin.TabStop = false;
+            btnTabLogin.Text = "Đăng nhập";
+            btnTabLogin.UseVisualStyleBackColor = false;
+            btnTabLogin.Click += btnTabLogin_Click;
+            btnTabLogin.Paint += Tab_Paint;
+            // 
+            // lblIntro
+            // 
+            lblIntro.Font = new System.Drawing.Font("Segoe UI", 9F);
+            lblIntro.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)135)), ((int)((byte)147)), ((int)((byte)163)));
+            lblIntro.Location = new System.Drawing.Point(41, 243);
+            lblIntro.Name = "lblIntro";
+            lblIntro.Size = new System.Drawing.Size(409, 48);
+            lblIntro.TabIndex = 5;
+            lblIntro.Text = "Quản lý toàn bộ hoạt động đào tạo, học viên và tài chính của trung tâm.";
+            // 
+            // lblTitle
+            // 
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)23)), ((int)((byte)36)), ((int)((byte)61)));
+            lblTitle.Location = new System.Drawing.Point(37, 197);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new System.Drawing.Size(302, 35);
+            lblTitle.TabIndex = 4;
+            lblTitle.Text = "Đăng nhập Quản trị viên";
+            // 
+            // lblRoleIcon
+            // 
+            lblRoleIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14F);
+            lblRoleIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)38)), ((int)((byte)124)), ((int)((byte)199)));
+            lblRoleIcon.Location = new System.Drawing.Point(41, 125);
+            lblRoleIcon.Name = "lblRoleIcon";
+            lblRoleIcon.Size = new System.Drawing.Size(50, 59);
+            lblRoleIcon.TabIndex = 3;
+            lblRoleIcon.Tag = "#e8f4ff";
+            lblRoleIcon.Text = "";
+            lblRoleIcon.Paint += lblRoleIcon_Paint;
+            // 
+            // lblBrandSub
+            // 
+            lblBrandSub.AutoSize = true;
+            lblBrandSub.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Bold);
+            lblBrandSub.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)143)), ((int)((byte)155)), ((int)((byte)172)));
+            lblBrandSub.Location = new System.Drawing.Point(90, 73);
+            lblBrandSub.Name = "lblBrandSub";
+            lblBrandSub.Size = new System.Drawing.Size(144, 15);
+            lblBrandSub.TabIndex = 2;
+            lblBrandSub.Text = "ENGLISH MANAGEMENT";
+            // 
+            // lblBrandName
+            // 
+            lblBrandName.AutoSize = true;
+            lblBrandName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            lblBrandName.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)23)), ((int)((byte)36)), ((int)((byte)61)));
+            lblBrandName.Location = new System.Drawing.Point(88, 44);
+            lblBrandName.Name = "lblBrandName";
+            lblBrandName.Size = new System.Drawing.Size(105, 25);
+            lblBrandName.TabIndex = 1;
+            lblBrandName.Text = "EduCenter";
+            // 
+            // pnlBrandMark
+            // 
+            pnlBrandMark.BackColor = System.Drawing.Color.White;
+            pnlBrandMark.Location = new System.Drawing.Point(41, 45);
+            pnlBrandMark.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlBrandMark.Name = "pnlBrandMark";
+            pnlBrandMark.Size = new System.Drawing.Size(39, 45);
+            pnlBrandMark.TabIndex = 0;
+            pnlBrandMark.Paint += pnlBrandMark_Paint;
             // 
             // FormLogin
             // 
-            this.AcceptButton = this.btnSubmit;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(247, 249, 252);
-            this.ClientSize = new System.Drawing.Size(1360, 860);
-            this.Controls.Add(this.pnlCard);
-            this.Controls.Add(this.btnBack);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MinimumSize = new System.Drawing.Size(900, 760);
-            this.Name = "FormLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EduCenter — Đăng nhập";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.FormLogin_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormLogin_Paint);
-            this.Resize += new System.EventHandler(this.FormLogin_Resize);
-            this.pnlCard.ResumeLayout(false);
-            this.pnlCard.PerformLayout();
-            this.flpForm.ResumeLayout(false);
-            this.pnlGroupName.ResumeLayout(false);
-            this.pnlGroupName.PerformLayout();
-            this.pnlNameInput.ResumeLayout(false);
-            this.pnlNameInput.PerformLayout();
-            this.pnlGroupEmail.ResumeLayout(false);
-            this.pnlGroupEmail.PerformLayout();
-            this.pnlEmailInput.ResumeLayout(false);
-            this.pnlEmailInput.PerformLayout();
-            this.pnlGroupPassword.ResumeLayout(false);
-            this.pnlGroupPassword.PerformLayout();
-            this.pnlPasswordInput.ResumeLayout(false);
-            this.pnlPasswordInput.PerformLayout();
-            this.pnlGroupConfirm.ResumeLayout(false);
-            this.pnlGroupConfirm.PerformLayout();
-            this.pnlConfirmInput.ResumeLayout(false);
-            this.pnlConfirmInput.PerformLayout();
-            this.pnlOptions.ResumeLayout(false);
-            this.pnlOptions.PerformLayout();
-            this.pnlTabs.ResumeLayout(false);
-            this.ResumeLayout(false);
+            AcceptButton = btnSubmit;
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(((int)((byte)247)), ((int)((byte)249)), ((int)((byte)252)));
+            ClientSize = new System.Drawing.Size(1554, 1055);
+            Controls.Add(pnlCard);
+            Controls.Add(btnBack);
+            Font = new System.Drawing.Font("Segoe UI", 9F);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            MinimumSize = new System.Drawing.Size(1026, 998);
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "EduCenter — Đăng nhập";
+            WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            Load += FormLogin_Load;
+            Paint += FormLogin_Paint;
+            Resize += FormLogin_Resize;
+            pnlCard.ResumeLayout(false);
+            pnlCard.PerformLayout();
+            pnlGroupName.ResumeLayout(false);
+            pnlGroupName.PerformLayout();
+            pnlNameInput.ResumeLayout(false);
+            pnlNameInput.PerformLayout();
+            pnlForm.ResumeLayout(false);
+            pnlGroupEmail.ResumeLayout(false);
+            pnlGroupEmail.PerformLayout();
+            pnlEmailInput.ResumeLayout(false);
+            pnlEmailInput.PerformLayout();
+            pnlGroupPassword.ResumeLayout(false);
+            pnlGroupPassword.PerformLayout();
+            pnlPasswordInput.ResumeLayout(false);
+            pnlPasswordInput.PerformLayout();
+            pnlGroupConfirm.ResumeLayout(false);
+            pnlGroupConfirm.PerformLayout();
+            pnlConfirmInput.ResumeLayout(false);
+            pnlConfirmInput.PerformLayout();
+            pnlOptions.ResumeLayout(false);
+            pnlOptions.PerformLayout();
+            pnlTabs.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -594,7 +612,7 @@ namespace EnglishCenterManagement.Forms
         private System.Windows.Forms.Panel pnlTabs;
         private System.Windows.Forms.Button btnTabLogin;
         private System.Windows.Forms.Button btnTabRegister;
-        private System.Windows.Forms.FlowLayoutPanel flpForm;
+        private System.Windows.Forms.Panel pnlForm;
         private System.Windows.Forms.Panel pnlGroupName;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Panel pnlNameInput;

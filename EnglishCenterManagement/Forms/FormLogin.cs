@@ -67,9 +67,8 @@ public partial class FormLogin : Form
         var shown = register
             ? new Control[] { pnlGroupName, pnlGroupEmail, pnlGroupPassword, pnlGroupConfirm, btnSubmit }
             : new Control[] { pnlGroupEmail, pnlGroupPassword, pnlOptions, btnSubmit, lblDemo };
-        int content = shown.Sum(c => c.Height + c.Margin.Vertical);
-        flpForm.Height = content;
-        pnlCard.Height = flpForm.Top + content + 26;
+        Ui.Stack(pnlForm, shown);
+        pnlCard.Height = pnlForm.Top + pnlForm.Height + 26;
         btnTabLogin.Invalidate();
         btnTabRegister.Invalidate();
         FormLogin_Resize(this, EventArgs.Empty);

@@ -15,614 +15,679 @@ namespace EnglishCenterManagement.Forms
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle attendanceHeaderStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle attendanceCellStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle scoreHeaderStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle scoreCellStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            this.lblEyebrow = new System.Windows.Forms.Label();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblDesc = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.pnlToolbar = new System.Windows.Forms.Panel();
-            this.cboClass = new System.Windows.Forms.ComboBox();
-            this.cboSession = new System.Windows.Forms.ComboBox();
-            this.pnlTabs = new System.Windows.Forms.Panel();
-            this.btnAttendance = new System.Windows.Forms.Button();
-            this.btnResults = new System.Windows.Forms.Button();
-            this.pnlWarning = new System.Windows.Forms.Panel();
-            this.lblWarningIcon = new System.Windows.Forms.Label();
-            this.lblWarning = new System.Windows.Forms.Label();
-            this.btnReception = new System.Windows.Forms.Button();
-            this.pnlTable = new System.Windows.Forms.Panel();
-            this.dgvAttendance = new System.Windows.Forms.DataGridView();
-            this.colStudent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAttendance = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAbsent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvScores = new System.Windows.Forms.DataGridView();
-            this.colScoreStudent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colScoreAttendance = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colMidterm = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colFinal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAverage = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colResult = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCertificate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pnlFooter = new System.Windows.Forms.Panel();
-            this.lblPageInfo = new System.Windows.Forms.Label();
-            this.btnPrev = new System.Windows.Forms.Button();
-            this.btnPage1 = new System.Windows.Forms.Button();
-            this.btnPage2 = new System.Windows.Forms.Button();
-            this.btnPage3 = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.pnlToolbar.SuspendLayout();
-            this.pnlTabs.SuspendLayout();
-            this.pnlWarning.SuspendLayout();
-            this.pnlTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAttendance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvScores)).BeginInit();
-            this.pnlFooter.SuspendLayout();
-            this.SuspendLayout();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            lblEyebrow = new System.Windows.Forms.Label();
+            lblTitle = new System.Windows.Forms.Label();
+            lblDesc = new System.Windows.Forms.Label();
+            btnSave = new System.Windows.Forms.Button();
+            pnlToolbar = new System.Windows.Forms.Panel();
+            pnlTabs = new System.Windows.Forms.Panel();
+            btnResults = new System.Windows.Forms.Button();
+            btnAttendance = new System.Windows.Forms.Button();
+            cboSession = new System.Windows.Forms.ComboBox();
+            cboClass = new System.Windows.Forms.ComboBox();
+            pnlWarning = new System.Windows.Forms.Panel();
+            btnReception = new System.Windows.Forms.Button();
+            lblWarning = new System.Windows.Forms.Label();
+            lblWarningIcon = new System.Windows.Forms.Label();
+            pnlTable = new System.Windows.Forms.Panel();
+            dgvAttendance = new System.Windows.Forms.DataGridView();
+            colStudent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colAttendance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colAbsent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            dgvScores = new System.Windows.Forms.DataGridView();
+            colScoreStudent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colScoreAttendance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colMidterm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colFinal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colAverage = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colResult = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            colCertificate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            pnlFooter = new System.Windows.Forms.Panel();
+            btnNext = new System.Windows.Forms.Button();
+            btnPage3 = new System.Windows.Forms.Button();
+            btnPage2 = new System.Windows.Forms.Button();
+            btnPage1 = new System.Windows.Forms.Button();
+            btnPrev = new System.Windows.Forms.Button();
+            lblPageInfo = new System.Windows.Forms.Label();
+            pnlToolbar.SuspendLayout();
+            pnlTabs.SuspendLayout();
+            pnlWarning.SuspendLayout();
+            pnlTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvAttendance).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvScores).BeginInit();
+            pnlFooter.SuspendLayout();
+            SuspendLayout();
             // 
             // lblEyebrow
             // 
-            this.lblEyebrow.AutoSize = true;
-            this.lblEyebrow.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEyebrow.ForeColor = System.Drawing.Color.FromArgb(37, 131, 215);
-            this.lblEyebrow.Location = new System.Drawing.Point(31, 27);
-            this.lblEyebrow.Name = "lblEyebrow";
-            this.lblEyebrow.Size = new System.Drawing.Size(144, 12);
-            this.lblEyebrow.TabIndex = 0;
-            this.lblEyebrow.Text = "CHẤT LƯỢNG ĐÀO TẠO";
+            lblEyebrow.AutoSize = true;
+            lblEyebrow.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold);
+            lblEyebrow.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)37)), ((int)((byte)131)), ((int)((byte)215)));
+            lblEyebrow.Location = new System.Drawing.Point(35, 36);
+            lblEyebrow.Name = "lblEyebrow";
+            lblEyebrow.Size = new System.Drawing.Size(157, 17);
+            lblEyebrow.TabIndex = 0;
+            lblEyebrow.Text = "CHẤT LƯỢNG ĐÀO TẠO";
             // 
             // lblTitle
             // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
-            this.lblTitle.Location = new System.Drawing.Point(27, 42);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(249, 32);
-            this.lblTitle.TabIndex = 1;
-            this.lblTitle.Text = "Điểm danh & Kết quả";
-            this.lblTitle.UseMnemonic = false;
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)23)), ((int)((byte)36)), ((int)((byte)61)));
+            lblTitle.Location = new System.Drawing.Point(31, 56);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new System.Drawing.Size(320, 41);
+            lblTitle.TabIndex = 1;
+            lblTitle.Text = "Điểm danh & Kết quả";
+            lblTitle.UseMnemonic = false;
             // 
             // lblDesc
             // 
-            this.lblDesc.AutoSize = true;
-            this.lblDesc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDesc.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
-            this.lblDesc.Location = new System.Drawing.Point(31, 79);
-            this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(304, 15);
-            this.lblDesc.TabIndex = 2;
-            this.lblDesc.Text = "Theo dõi chuyên cần, điểm thi và cấp chứng nhận.";
+            lblDesc.AutoSize = true;
+            lblDesc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            lblDesc.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)135)), ((int)((byte)147)), ((int)((byte)163)));
+            lblDesc.Location = new System.Drawing.Point(35, 105);
+            lblDesc.Name = "lblDesc";
+            lblDesc.Size = new System.Drawing.Size(338, 20);
+            lblDesc.TabIndex = 2;
+            lblDesc.Text = "Theo dõi chuyên cần, điểm thi và cấp chứng nhận.";
             // 
             // btnSave
             // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSave.FlatAppearance.BorderSize = 0;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(932, 46);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(153, 38);
-            this.btnSave.TabIndex = 3;
-            this.btnSave.Tag = "\uE73E";
-            this.btnSave.Text = "Lưu điểm danh";
-            this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            this.btnSave.Paint += new System.Windows.Forms.PaintEventHandler(this.Primary_Paint);
+            btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnSave.FlatAppearance.BorderSize = 0;
+            btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnSave.ForeColor = System.Drawing.Color.White;
+            btnSave.Location = new System.Drawing.Point(1065, 61);
+            btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new System.Drawing.Size(175, 51);
+            btnSave.TabIndex = 3;
+            btnSave.Tag = "";
+            btnSave.Text = "Lưu điểm danh";
+            btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
+            btnSave.Paint += Primary_Paint;
             // 
             // pnlToolbar
             // 
-            this.pnlToolbar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlToolbar.BackColor = System.Drawing.Color.White;
-            this.pnlToolbar.Controls.Add(this.pnlTabs);
-            this.pnlToolbar.Controls.Add(this.cboSession);
-            this.pnlToolbar.Controls.Add(this.cboClass);
-            this.pnlToolbar.Location = new System.Drawing.Point(31, 116);
-            this.pnlToolbar.Name = "pnlToolbar";
-            this.pnlToolbar.Size = new System.Drawing.Size(1054, 60);
-            this.pnlToolbar.TabIndex = 4;
-            this.pnlToolbar.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
-            // 
-            // cboClass
-            // 
-            this.cboClass.BackColor = System.Drawing.Color.White;
-            this.cboClass.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboClass.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cboClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboClass.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cboClass.ForeColor = System.Drawing.Color.FromArgb(83, 100, 122);
-            this.cboClass.ItemHeight = 30;
-            this.cboClass.Location = new System.Drawing.Point(14, 12);
-            this.cboClass.Name = "cboClass";
-            this.cboClass.Size = new System.Drawing.Size(266, 36);
-            this.cboClass.TabIndex = 0;
-            this.cboClass.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
-            this.cboClass.SelectedIndexChanged += new System.EventHandler(this.cboClass_SelectedIndexChanged);
-            // 
-            // cboSession
-            // 
-            this.cboSession.BackColor = System.Drawing.Color.White;
-            this.cboSession.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboSession.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cboSession.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboSession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboSession.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cboSession.ForeColor = System.Drawing.Color.FromArgb(83, 100, 122);
-            this.cboSession.ItemHeight = 30;
-            this.cboSession.Location = new System.Drawing.Point(292, 12);
-            this.cboSession.Name = "cboSession";
-            this.cboSession.Size = new System.Drawing.Size(224, 36);
-            this.cboSession.TabIndex = 1;
-            this.cboSession.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
-            this.cboSession.SelectedIndexChanged += new System.EventHandler(this.cboSession_SelectedIndexChanged);
+            pnlToolbar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
+            pnlToolbar.BackColor = System.Drawing.Color.White;
+            pnlToolbar.Controls.Add(pnlTabs);
+            pnlToolbar.Controls.Add(cboSession);
+            pnlToolbar.Controls.Add(cboClass);
+            pnlToolbar.Location = new System.Drawing.Point(35, 155);
+            pnlToolbar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlToolbar.Name = "pnlToolbar";
+            pnlToolbar.Size = new System.Drawing.Size(1205, 80);
+            pnlToolbar.TabIndex = 4;
+            pnlToolbar.Paint += Card_Paint;
             // 
             // pnlTabs
             // 
-            this.pnlTabs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlTabs.BackColor = System.Drawing.Color.FromArgb(240, 243, 246);
-            this.pnlTabs.Controls.Add(this.btnResults);
-            this.pnlTabs.Controls.Add(this.btnAttendance);
-            this.pnlTabs.Location = new System.Drawing.Point(782, 12);
-            this.pnlTabs.Name = "pnlTabs";
-            this.pnlTabs.Size = new System.Drawing.Size(258, 36);
-            this.pnlTabs.TabIndex = 2;
-            this.pnlTabs.Paint += new System.Windows.Forms.PaintEventHandler(this.Tabs_Paint);
-            // 
-            // btnAttendance
-            // 
-            this.btnAttendance.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAttendance.FlatAppearance.BorderSize = 0;
-            this.btnAttendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAttendance.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAttendance.ForeColor = System.Drawing.Color.FromArgb(40, 125, 198);
-            this.btnAttendance.Location = new System.Drawing.Point(3, 3);
-            this.btnAttendance.Name = "btnAttendance";
-            this.btnAttendance.Size = new System.Drawing.Size(102, 30);
-            this.btnAttendance.TabIndex = 0;
-            this.btnAttendance.Text = "Điểm danh";
-            this.btnAttendance.UseVisualStyleBackColor = false;
-            this.btnAttendance.Click += new System.EventHandler(this.btnAttendance_Click);
-            this.btnAttendance.Paint += new System.Windows.Forms.PaintEventHandler(this.Tab_Paint);
+            pnlTabs.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            pnlTabs.BackColor = System.Drawing.Color.FromArgb(((int)((byte)240)), ((int)((byte)243)), ((int)((byte)246)));
+            pnlTabs.Controls.Add(btnResults);
+            pnlTabs.Controls.Add(btnAttendance);
+            pnlTabs.Location = new System.Drawing.Point(894, 16);
+            pnlTabs.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlTabs.Name = "pnlTabs";
+            pnlTabs.Size = new System.Drawing.Size(295, 48);
+            pnlTabs.TabIndex = 2;
+            pnlTabs.Paint += Tabs_Paint;
             // 
             // btnResults
             // 
-            this.btnResults.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnResults.FlatAppearance.BorderSize = 0;
-            this.btnResults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnResults.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnResults.ForeColor = System.Drawing.Color.FromArgb(122, 137, 154);
-            this.btnResults.Location = new System.Drawing.Point(108, 3);
-            this.btnResults.Name = "btnResults";
-            this.btnResults.Size = new System.Drawing.Size(147, 30);
-            this.btnResults.TabIndex = 1;
-            this.btnResults.Text = "Kết quả học tập";
-            this.btnResults.UseVisualStyleBackColor = false;
-            this.btnResults.Click += new System.EventHandler(this.btnResults_Click);
-            this.btnResults.Paint += new System.Windows.Forms.PaintEventHandler(this.Tab_Paint);
+            btnResults.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnResults.FlatAppearance.BorderSize = 0;
+            btnResults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnResults.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnResults.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)122)), ((int)((byte)137)), ((int)((byte)154)));
+            btnResults.Location = new System.Drawing.Point(123, 4);
+            btnResults.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnResults.Name = "btnResults";
+            btnResults.Size = new System.Drawing.Size(168, 40);
+            btnResults.TabIndex = 1;
+            btnResults.Text = "Kết quả học tập";
+            btnResults.UseVisualStyleBackColor = false;
+            btnResults.Click += btnResults_Click;
+            btnResults.Paint += Tab_Paint;
+            // 
+            // btnAttendance
+            // 
+            btnAttendance.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnAttendance.FlatAppearance.BorderSize = 0;
+            btnAttendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnAttendance.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnAttendance.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)40)), ((int)((byte)125)), ((int)((byte)198)));
+            btnAttendance.Location = new System.Drawing.Point(3, 4);
+            btnAttendance.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnAttendance.Name = "btnAttendance";
+            btnAttendance.Size = new System.Drawing.Size(117, 40);
+            btnAttendance.TabIndex = 0;
+            btnAttendance.Text = "Điểm danh";
+            btnAttendance.UseVisualStyleBackColor = false;
+            btnAttendance.Click += btnAttendance_Click;
+            btnAttendance.Paint += Tab_Paint;
+            // 
+            // cboSession
+            // 
+            cboSession.BackColor = System.Drawing.Color.White;
+            cboSession.Cursor = System.Windows.Forms.Cursors.Hand;
+            cboSession.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            cboSession.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cboSession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cboSession.Font = new System.Drawing.Font("Segoe UI", 9F);
+            cboSession.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)83)), ((int)((byte)100)), ((int)((byte)122)));
+            cboSession.ItemHeight = 30;
+            cboSession.Location = new System.Drawing.Point(334, 16);
+            cboSession.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            cboSession.Name = "cboSession";
+            cboSession.Size = new System.Drawing.Size(255, 36);
+            cboSession.TabIndex = 1;
+            cboSession.DrawItem += Combo_DrawItem;
+            cboSession.SelectedIndexChanged += cboSession_SelectedIndexChanged;
+            // 
+            // cboClass
+            // 
+            cboClass.BackColor = System.Drawing.Color.White;
+            cboClass.Cursor = System.Windows.Forms.Cursors.Hand;
+            cboClass.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            cboClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cboClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cboClass.Font = new System.Drawing.Font("Segoe UI", 9F);
+            cboClass.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)83)), ((int)((byte)100)), ((int)((byte)122)));
+            cboClass.ItemHeight = 30;
+            cboClass.Location = new System.Drawing.Point(16, 16);
+            cboClass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            cboClass.Name = "cboClass";
+            cboClass.Size = new System.Drawing.Size(303, 36);
+            cboClass.TabIndex = 0;
+            cboClass.DrawItem += Combo_DrawItem;
+            cboClass.SelectedIndexChanged += cboClass_SelectedIndexChanged;
             // 
             // pnlWarning
             // 
-            this.pnlWarning.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlWarning.BackColor = System.Drawing.Color.FromArgb(255, 248, 242);
-            this.pnlWarning.Controls.Add(this.btnReception);
-            this.pnlWarning.Controls.Add(this.lblWarning);
-            this.pnlWarning.Controls.Add(this.lblWarningIcon);
-            this.pnlWarning.Location = new System.Drawing.Point(31, 188);
-            this.pnlWarning.Name = "pnlWarning";
-            this.pnlWarning.Size = new System.Drawing.Size(1054, 58);
-            this.pnlWarning.TabIndex = 5;
-            this.pnlWarning.Paint += new System.Windows.Forms.PaintEventHandler(this.Warning_Paint);
-            // 
-            // lblWarningIcon
-            // 
-            this.lblWarningIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblWarningIcon.ForeColor = System.Drawing.Color.FromArgb(220, 124, 59);
-            this.lblWarningIcon.Location = new System.Drawing.Point(14, 13);
-            this.lblWarningIcon.Name = "lblWarningIcon";
-            this.lblWarningIcon.Size = new System.Drawing.Size(30, 32);
-            this.lblWarningIcon.TabIndex = 0;
-            this.lblWarningIcon.Text = "\uE7BA";
-            this.lblWarningIcon.Paint += new System.Windows.Forms.PaintEventHandler(this.WarningIcon_Paint);
-            // 
-            // lblWarning
-            // 
-            this.lblWarning.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblWarning.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblWarning.ForeColor = System.Drawing.Color.FromArgb(154, 91, 50);
-            this.lblWarning.Location = new System.Drawing.Point(53, 10);
-            this.lblWarning.Name = "lblWarning";
-            this.lblWarning.Size = new System.Drawing.Size(861, 38);
-            this.lblWarning.TabIndex = 1;
-            this.lblWarning.Text = "3 học viên cần chú ý — vắng quá 3 buổi. Lễ tân cần liên hệ nhắc nhở.";
-            this.lblWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            pnlWarning.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
+            pnlWarning.BackColor = System.Drawing.Color.FromArgb(((int)((byte)255)), ((int)((byte)248)), ((int)((byte)242)));
+            pnlWarning.Controls.Add(btnReception);
+            pnlWarning.Controls.Add(lblWarning);
+            pnlWarning.Controls.Add(lblWarningIcon);
+            pnlWarning.Location = new System.Drawing.Point(35, 251);
+            pnlWarning.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlWarning.Name = "pnlWarning";
+            pnlWarning.Size = new System.Drawing.Size(1205, 77);
+            pnlWarning.TabIndex = 5;
+            pnlWarning.Visible = false;
+            pnlWarning.Paint += Warning_Paint;
             // 
             // btnReception
             // 
-            this.btnReception.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReception.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReception.FlatAppearance.BorderSize = 0;
-            this.btnReception.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReception.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnReception.ForeColor = System.Drawing.Color.FromArgb(191, 105, 49);
-            this.btnReception.Location = new System.Drawing.Point(930, 13);
-            this.btnReception.Name = "btnReception";
-            this.btnReception.Size = new System.Drawing.Size(110, 32);
-            this.btnReception.TabIndex = 2;
-            this.btnReception.Text = "Gửi lễ tân";
-            this.btnReception.UseVisualStyleBackColor = false;
-            this.btnReception.Click += new System.EventHandler(this.btnReception_Click);
-            this.btnReception.Paint += new System.Windows.Forms.PaintEventHandler(this.Reception_Paint);
+            btnReception.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnReception.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnReception.FlatAppearance.BorderSize = 0;
+            btnReception.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnReception.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnReception.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)191)), ((int)((byte)105)), ((int)((byte)49)));
+            btnReception.Location = new System.Drawing.Point(1063, 17);
+            btnReception.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnReception.Name = "btnReception";
+            btnReception.Size = new System.Drawing.Size(126, 43);
+            btnReception.TabIndex = 2;
+            btnReception.Text = "Gửi lễ tân";
+            btnReception.UseVisualStyleBackColor = false;
+            btnReception.Click += btnReception_Click;
+            btnReception.Paint += Reception_Paint;
+            // 
+            // lblWarning
+            // 
+            lblWarning.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
+            lblWarning.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            lblWarning.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)154)), ((int)((byte)91)), ((int)((byte)50)));
+            lblWarning.Location = new System.Drawing.Point(61, 13);
+            lblWarning.Name = "lblWarning";
+            lblWarning.Size = new System.Drawing.Size(984, 51);
+            lblWarning.TabIndex = 1;
+            lblWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblWarningIcon
+            // 
+            lblWarningIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 11F);
+            lblWarningIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)220)), ((int)((byte)124)), ((int)((byte)59)));
+            lblWarningIcon.Location = new System.Drawing.Point(16, 17);
+            lblWarningIcon.Name = "lblWarningIcon";
+            lblWarningIcon.Size = new System.Drawing.Size(34, 43);
+            lblWarningIcon.TabIndex = 0;
+            lblWarningIcon.Text = "";
+            lblWarningIcon.Paint += WarningIcon_Paint;
             // 
             // pnlTable
             // 
-            this.pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlTable.BackColor = System.Drawing.Color.White;
-            this.pnlTable.Controls.Add(this.dgvAttendance);
-            this.pnlTable.Controls.Add(this.dgvScores);
-            this.pnlTable.Controls.Add(this.pnlFooter);
-            this.pnlTable.Location = new System.Drawing.Point(31, 260);
-            this.pnlTable.Name = "pnlTable";
-            this.pnlTable.Padding = new System.Windows.Forms.Padding(1);
-            this.pnlTable.Size = new System.Drawing.Size(1054, 494);
-            this.pnlTable.TabIndex = 6;
-            this.pnlTable.Paint += new System.Windows.Forms.PaintEventHandler(this.Card_Paint);
+            pnlTable.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right));
+            pnlTable.BackColor = System.Drawing.Color.White;
+            pnlTable.Controls.Add(dgvAttendance);
+            pnlTable.Controls.Add(dgvScores);
+            pnlTable.Controls.Add(pnlFooter);
+            pnlTable.Location = new System.Drawing.Point(35, 347);
+            pnlTable.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlTable.Name = "pnlTable";
+            pnlTable.Padding = new System.Windows.Forms.Padding(1);
+            pnlTable.Size = new System.Drawing.Size(1205, 659);
+            pnlTable.TabIndex = 6;
+            pnlTable.Paint += Card_Paint;
             // 
             // dgvAttendance
             // 
-            this.dgvAttendance.AllowUserToAddRows = false;
-            this.dgvAttendance.AllowUserToDeleteRows = false;
-            this.dgvAttendance.AllowUserToResizeColumns = false;
-            this.dgvAttendance.AllowUserToResizeRows = false;
-            this.dgvAttendance.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvAttendance.BackgroundColor = System.Drawing.Color.White;
-            this.dgvAttendance.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvAttendance.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvAttendance.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            attendanceHeaderStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            attendanceHeaderStyle.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
-            attendanceHeaderStyle.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            attendanceHeaderStyle.ForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
-            attendanceHeaderStyle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            attendanceHeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(248, 250, 252);
-            attendanceHeaderStyle.SelectionForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
-            attendanceHeaderStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAttendance.ColumnHeadersDefaultCellStyle = attendanceHeaderStyle;
-            this.dgvAttendance.ColumnHeadersHeight = 39;
-            this.dgvAttendance.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvAttendance.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colStudent,
-            this.colPhone,
-            this.colAttendance,
-            this.colAbsent,
-            this.colStatus});
-            this.dgvAttendance.Cursor = System.Windows.Forms.Cursors.Hand;
-            attendanceCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            attendanceCellStyle.BackColor = System.Drawing.Color.White;
-            attendanceCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            attendanceCellStyle.ForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
-            attendanceCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(247, 251, 255);
-            attendanceCellStyle.SelectionForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
-            attendanceCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAttendance.DefaultCellStyle = attendanceCellStyle;
-            this.dgvAttendance.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvAttendance.EnableHeadersVisualStyles = false;
-            this.dgvAttendance.GridColor = System.Drawing.Color.FromArgb(237, 240, 244);
-            this.dgvAttendance.Location = new System.Drawing.Point(1, 1);
-            this.dgvAttendance.MultiSelect = false;
-            this.dgvAttendance.Name = "dgvAttendance";
-            this.dgvAttendance.ReadOnly = true;
-            this.dgvAttendance.RowHeadersVisible = false;
-            this.dgvAttendance.RowTemplate.Height = 60;
-            this.dgvAttendance.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvAttendance.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAttendance.Size = new System.Drawing.Size(1052, 438);
-            this.dgvAttendance.TabIndex = 0;
-            this.dgvAttendance.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAttendance_CellClick);
-            this.dgvAttendance.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvAttendance_CellPainting);
-            this.dgvAttendance.SizeChanged += new System.EventHandler(this.Grid_SizeChanged);
+            dgvAttendance.AllowUserToAddRows = false;
+            dgvAttendance.AllowUserToDeleteRows = false;
+            dgvAttendance.AllowUserToResizeColumns = false;
+            dgvAttendance.AllowUserToResizeRows = false;
+            dgvAttendance.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dgvAttendance.BackgroundColor = System.Drawing.Color.White;
+            dgvAttendance.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dgvAttendance.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvAttendance.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)((byte)248)), ((int)((byte)250)), ((int)((byte)252)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)142)), ((int)((byte)154)), ((int)((byte)170)));
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)((byte)248)), ((int)((byte)250)), ((int)((byte)252)));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)((byte)142)), ((int)((byte)154)), ((int)((byte)170)));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dgvAttendance.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgvAttendance.ColumnHeadersHeight = 39;
+            dgvAttendance.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgvAttendance.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { colStudent, colPhone, colAttendance, colAbsent, colStatus });
+            dgvAttendance.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)101)), ((int)((byte)116)), ((int)((byte)137)));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)((byte)247)), ((int)((byte)251)), ((int)((byte)255)));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)((byte)101)), ((int)((byte)116)), ((int)((byte)137)));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dgvAttendance.DefaultCellStyle = dataGridViewCellStyle2;
+            dgvAttendance.Dock = System.Windows.Forms.DockStyle.Fill;
+            dgvAttendance.EnableHeadersVisualStyles = false;
+            dgvAttendance.GridColor = System.Drawing.Color.FromArgb(((int)((byte)237)), ((int)((byte)240)), ((int)((byte)244)));
+            dgvAttendance.Location = new System.Drawing.Point(1, 1);
+            dgvAttendance.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            dgvAttendance.MultiSelect = false;
+            dgvAttendance.Name = "dgvAttendance";
+            dgvAttendance.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dgvAttendance.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dgvAttendance.RowHeadersVisible = false;
+            dgvAttendance.RowHeadersWidth = 51;
+            dgvAttendance.RowTemplate.Height = 60;
+            dgvAttendance.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            dgvAttendance.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            dgvAttendance.Size = new System.Drawing.Size(1203, 585);
+            dgvAttendance.TabIndex = 0;
+            dgvAttendance.CellClick += dgvAttendance_CellClick;
+            dgvAttendance.CellPainting += dgvAttendance_CellPainting;
+            dgvAttendance.SizeChanged += Grid_SizeChanged;
             // 
             // colStudent
             // 
-            this.colStudent.FillWeight = 300F;
-            this.colStudent.HeaderText = "HỌC VIÊN";
-            this.colStudent.Name = "colStudent";
-            this.colStudent.ReadOnly = true;
-            this.colStudent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colStudent.FillWeight = 299.9891F;
+            colStudent.HeaderText = "HỌC VIÊN";
+            colStudent.MinimumWidth = 6;
+            colStudent.Name = "colStudent";
+            colStudent.ReadOnly = true;
+            colStudent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colStudent.Width = 343;
             // 
             // colPhone
             // 
-            this.colPhone.FillWeight = 185F;
-            this.colPhone.HeaderText = "SỐ ĐIỆN THOẠI";
-            this.colPhone.Name = "colPhone";
-            this.colPhone.ReadOnly = true;
-            this.colPhone.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colPhone.FillWeight = 184.53764F;
+            colPhone.HeaderText = "SỐ ĐIỆN THOẠI";
+            colPhone.MinimumWidth = 6;
+            colPhone.Name = "colPhone";
+            colPhone.ReadOnly = true;
+            colPhone.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colPhone.Width = 211;
             // 
             // colAttendance
             // 
-            this.colAttendance.FillWeight = 150F;
-            this.colAttendance.HeaderText = "CHUYÊN CẦN";
-            this.colAttendance.Name = "colAttendance";
-            this.colAttendance.ReadOnly = true;
-            this.colAttendance.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAttendance.FillWeight = 150.42564F;
+            colAttendance.HeaderText = "CHUYÊN CẦN";
+            colAttendance.MinimumWidth = 6;
+            colAttendance.Name = "colAttendance";
+            colAttendance.ReadOnly = true;
+            colAttendance.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAttendance.Width = 172;
             // 
             // colAbsent
             // 
-            this.colAbsent.FillWeight = 165F;
-            this.colAbsent.HeaderText = "SỐ BUỔI VẮNG";
-            this.colAbsent.Name = "colAbsent";
-            this.colAbsent.ReadOnly = true;
-            this.colAbsent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAbsent.FillWeight = 165.31024F;
+            colAbsent.HeaderText = "SỐ BUỔI VẮNG";
+            colAbsent.MinimumWidth = 6;
+            colAbsent.Name = "colAbsent";
+            colAbsent.ReadOnly = true;
+            colAbsent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAbsent.Width = 189;
             // 
             // colStatus
             // 
-            this.colStatus.FillWeight = 252F;
-            this.colStatus.HeaderText = "TRẠNG THÁI";
-            this.colStatus.Name = "colStatus";
-            this.colStatus.ReadOnly = true;
-            this.colStatus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colStatus.FillWeight = 251.88573F;
+            colStatus.HeaderText = "TRẠNG THÁI";
+            colStatus.MinimumWidth = 6;
+            colStatus.Name = "colStatus";
+            colStatus.ReadOnly = true;
+            colStatus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colStatus.Width = 288;
             // 
             // dgvScores
             // 
-            this.dgvScores.AllowUserToAddRows = false;
-            this.dgvScores.AllowUserToDeleteRows = false;
-            this.dgvScores.AllowUserToResizeColumns = false;
-            this.dgvScores.AllowUserToResizeRows = false;
-            this.dgvScores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvScores.BackgroundColor = System.Drawing.Color.White;
-            this.dgvScores.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvScores.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvScores.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            scoreHeaderStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            scoreHeaderStyle.BackColor = System.Drawing.Color.FromArgb(248, 250, 252);
-            scoreHeaderStyle.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            scoreHeaderStyle.ForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
-            scoreHeaderStyle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            scoreHeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(248, 250, 252);
-            scoreHeaderStyle.SelectionForeColor = System.Drawing.Color.FromArgb(142, 154, 170);
-            scoreHeaderStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvScores.ColumnHeadersDefaultCellStyle = scoreHeaderStyle;
-            this.dgvScores.ColumnHeadersHeight = 39;
-            this.dgvScores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvScores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colScoreStudent,
-            this.colScoreAttendance,
-            this.colMidterm,
-            this.colFinal,
-            this.colAverage,
-            this.colResult,
-            this.colCertificate});
-            this.dgvScores.Cursor = System.Windows.Forms.Cursors.Hand;
-            scoreCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            scoreCellStyle.BackColor = System.Drawing.Color.White;
-            scoreCellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            scoreCellStyle.ForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
-            scoreCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(247, 251, 255);
-            scoreCellStyle.SelectionForeColor = System.Drawing.Color.FromArgb(101, 116, 137);
-            scoreCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvScores.DefaultCellStyle = scoreCellStyle;
-            this.dgvScores.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvScores.EnableHeadersVisualStyles = false;
-            this.dgvScores.GridColor = System.Drawing.Color.FromArgb(237, 240, 244);
-            this.dgvScores.Location = new System.Drawing.Point(1, 1);
-            this.dgvScores.MultiSelect = false;
-            this.dgvScores.Name = "dgvScores";
-            this.dgvScores.ReadOnly = false;
-            this.dgvScores.RowHeadersVisible = false;
-            this.dgvScores.RowTemplate.Height = 60;
-            this.dgvScores.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvScores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvScores.Size = new System.Drawing.Size(1052, 438);
-            this.dgvScores.TabIndex = 1;
-            this.dgvScores.Visible = false;
-            this.dgvScores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvScores_CellClick);
-            this.dgvScores.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvScores_CellPainting);
-            this.dgvScores.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgvScores_CellValidating);
-            this.dgvScores.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvScores_CellEndEdit);
-            this.dgvScores.SizeChanged += new System.EventHandler(this.Grid_SizeChanged);
+            dgvScores.AllowUserToAddRows = false;
+            dgvScores.AllowUserToDeleteRows = false;
+            dgvScores.AllowUserToResizeColumns = false;
+            dgvScores.AllowUserToResizeRows = false;
+            dgvScores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dgvScores.BackgroundColor = System.Drawing.Color.White;
+            dgvScores.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dgvScores.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvScores.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)((byte)248)), ((int)((byte)250)), ((int)((byte)252)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)142)), ((int)((byte)154)), ((int)((byte)170)));
+            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)((byte)248)), ((int)((byte)250)), ((int)((byte)252)));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)((byte)142)), ((int)((byte)154)), ((int)((byte)170)));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dgvScores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dgvScores.ColumnHeadersHeight = 39;
+            dgvScores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dgvScores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { colScoreStudent, colScoreAttendance, colMidterm, colFinal, colAverage, colResult, colCertificate });
+            dgvScores.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)101)), ((int)((byte)116)), ((int)((byte)137)));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)((byte)247)), ((int)((byte)251)), ((int)((byte)255)));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)((byte)101)), ((int)((byte)116)), ((int)((byte)137)));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dgvScores.DefaultCellStyle = dataGridViewCellStyle5;
+            dgvScores.Dock = System.Windows.Forms.DockStyle.Fill;
+            dgvScores.EnableHeadersVisualStyles = false;
+            dgvScores.GridColor = System.Drawing.Color.FromArgb(((int)((byte)237)), ((int)((byte)240)), ((int)((byte)244)));
+            dgvScores.Location = new System.Drawing.Point(1, 1);
+            dgvScores.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            dgvScores.MultiSelect = false;
+            dgvScores.Name = "dgvScores";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dgvScores.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dgvScores.RowHeadersVisible = false;
+            dgvScores.RowHeadersWidth = 51;
+            dgvScores.RowTemplate.Height = 60;
+            dgvScores.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            dgvScores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            dgvScores.Size = new System.Drawing.Size(1203, 585);
+            dgvScores.TabIndex = 1;
+            dgvScores.Visible = false;
+            dgvScores.CellClick += dgvScores_CellClick;
+            dgvScores.CellEndEdit += dgvScores_CellEndEdit;
+            dgvScores.CellPainting += dgvScores_CellPainting;
+            dgvScores.CellValidating += dgvScores_CellValidating;
+            dgvScores.SizeChanged += Grid_SizeChanged;
             // 
             // colScoreStudent
             // 
-            this.colScoreStudent.FillWeight = 270F;
-            this.colScoreStudent.HeaderText = "HỌC VIÊN";
-            this.colScoreStudent.Name = "colScoreStudent";
-            this.colScoreStudent.ReadOnly = true;
-            this.colScoreStudent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colScoreStudent.FillWeight = 269.8148F;
+            colScoreStudent.HeaderText = "HỌC VIÊN";
+            colScoreStudent.MinimumWidth = 6;
+            colScoreStudent.Name = "colScoreStudent";
+            colScoreStudent.ReadOnly = true;
+            colScoreStudent.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colScoreStudent.Width = 317;
             // 
             // colScoreAttendance
             // 
-            this.colScoreAttendance.FillWeight = 130F;
-            this.colScoreAttendance.HeaderText = "CHUYÊN CẦN";
-            this.colScoreAttendance.Name = "colScoreAttendance";
-            this.colScoreAttendance.ReadOnly = true;
-            this.colScoreAttendance.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colScoreAttendance.FillWeight = 130.22328F;
+            colScoreAttendance.HeaderText = "CHUYÊN CẦN";
+            colScoreAttendance.MinimumWidth = 6;
+            colScoreAttendance.Name = "colScoreAttendance";
+            colScoreAttendance.ReadOnly = true;
+            colScoreAttendance.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colScoreAttendance.Width = 153;
             // 
             // colMidterm
             // 
-            this.colMidterm.FillWeight = 105F;
-            this.colMidterm.HeaderText = "GIỮA KỲ";
-            this.colMidterm.Name = "colMidterm";
-            this.colMidterm.ReadOnly = false;
-            this.colMidterm.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colMidterm.FillWeight = 105.543304F;
+            colMidterm.HeaderText = "GIỮA KỲ";
+            colMidterm.MinimumWidth = 6;
+            colMidterm.Name = "colMidterm";
+            colMidterm.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colMidterm.Width = 124;
             // 
             // colFinal
             // 
-            this.colFinal.FillWeight = 105F;
-            this.colFinal.HeaderText = "CUỐI KỲ";
-            this.colFinal.Name = "colFinal";
-            this.colFinal.ReadOnly = false;
-            this.colFinal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colFinal.FillWeight = 104.69531F;
+            colFinal.HeaderText = "CUỐI KỲ";
+            colFinal.MinimumWidth = 6;
+            colFinal.Name = "colFinal";
+            colFinal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colFinal.Width = 123;
             // 
             // colAverage
             // 
-            this.colAverage.FillWeight = 125F;
-            this.colAverage.HeaderText = "TRUNG BÌNH";
-            this.colAverage.Name = "colAverage";
-            this.colAverage.ReadOnly = true;
-            this.colAverage.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAverage.FillWeight = 125.11344F;
+            colAverage.HeaderText = "TRUNG BÌNH";
+            colAverage.MinimumWidth = 6;
+            colAverage.Name = "colAverage";
+            colAverage.ReadOnly = true;
+            colAverage.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colAverage.Width = 147;
             // 
             // colResult
             // 
-            this.colResult.FillWeight = 158F;
-            this.colResult.HeaderText = "KẾT QUẢ";
-            this.colResult.Name = "colResult";
-            this.colResult.ReadOnly = true;
-            this.colResult.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colResult.FillWeight = 157.46704F;
+            colResult.HeaderText = "KẾT QUẢ";
+            colResult.MinimumWidth = 6;
+            colResult.Name = "colResult";
+            colResult.ReadOnly = true;
+            colResult.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colResult.Width = 185;
             // 
             // colCertificate
             // 
-            this.colCertificate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colCertificate.HeaderText = "";
-            this.colCertificate.Name = "colCertificate";
-            this.colCertificate.ReadOnly = true;
-            this.colCertificate.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.colCertificate.Width = 154;
+            colCertificate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            colCertificate.HeaderText = "";
+            colCertificate.MinimumWidth = 6;
+            colCertificate.Name = "colCertificate";
+            colCertificate.ReadOnly = true;
+            colCertificate.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            colCertificate.Width = 154;
             // 
             // pnlFooter
             // 
-            this.pnlFooter.BackColor = System.Drawing.Color.White;
-            this.pnlFooter.Controls.Add(this.btnNext);
-            this.pnlFooter.Controls.Add(this.btnPage3);
-            this.pnlFooter.Controls.Add(this.btnPage2);
-            this.pnlFooter.Controls.Add(this.btnPage1);
-            this.pnlFooter.Controls.Add(this.btnPrev);
-            this.pnlFooter.Controls.Add(this.lblPageInfo);
-            this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFooter.Location = new System.Drawing.Point(1, 439);
-            this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.Size = new System.Drawing.Size(1052, 54);
-            this.pnlFooter.TabIndex = 2;
-            this.pnlFooter.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFooter_Paint);
-            // 
-            // lblPageInfo
-            // 
-            this.lblPageInfo.AutoSize = true;
-            this.lblPageInfo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblPageInfo.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
-            this.lblPageInfo.Location = new System.Drawing.Point(18, 20);
-            this.lblPageInfo.Name = "lblPageInfo";
-            this.lblPageInfo.Size = new System.Drawing.Size(170, 13);
-            this.lblPageInfo.TabIndex = 0;
-            this.lblPageInfo.Text = "Trang 1 / 1 · Hiển thị 0 kết quả";
-            // 
-            // btnPrev
-            // 
-            this.btnPrev.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrev.FlatAppearance.BorderSize = 0;
-            this.btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrev.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPrev.Location = new System.Drawing.Point(886, 13);
-            this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(28, 28);
-            this.btnPrev.TabIndex = 1;
-            this.btnPrev.Tag = "\uE76B";
-            this.btnPrev.UseVisualStyleBackColor = false;
-            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
-            this.btnPrev.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
-            // 
-            // btnPage1
-            // 
-            this.btnPage1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPage1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPage1.FlatAppearance.BorderSize = 0;
-            this.btnPage1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPage1.Location = new System.Drawing.Point(918, 13);
-            this.btnPage1.Name = "btnPage1";
-            this.btnPage1.Size = new System.Drawing.Size(28, 28);
-            this.btnPage1.TabIndex = 2;
-            this.btnPage1.Text = "1";
-            this.btnPage1.UseVisualStyleBackColor = false;
-            this.btnPage1.Click += new System.EventHandler(this.Page_Click);
-            this.btnPage1.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
-            // 
-            // btnPage2
-            // 
-            this.btnPage2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPage2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPage2.FlatAppearance.BorderSize = 0;
-            this.btnPage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPage2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPage2.Location = new System.Drawing.Point(950, 13);
-            this.btnPage2.Name = "btnPage2";
-            this.btnPage2.Size = new System.Drawing.Size(28, 28);
-            this.btnPage2.TabIndex = 3;
-            this.btnPage2.Text = "2";
-            this.btnPage2.UseVisualStyleBackColor = false;
-            this.btnPage2.Click += new System.EventHandler(this.Page_Click);
-            this.btnPage2.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
-            // 
-            // btnPage3
-            // 
-            this.btnPage3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPage3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPage3.FlatAppearance.BorderSize = 0;
-            this.btnPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPage3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPage3.Location = new System.Drawing.Point(982, 13);
-            this.btnPage3.Name = "btnPage3";
-            this.btnPage3.Size = new System.Drawing.Size(28, 28);
-            this.btnPage3.TabIndex = 4;
-            this.btnPage3.Text = "3";
-            this.btnPage3.UseVisualStyleBackColor = false;
-            this.btnPage3.Click += new System.EventHandler(this.Page_Click);
-            this.btnPage3.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            pnlFooter.BackColor = System.Drawing.Color.White;
+            pnlFooter.Controls.Add(btnNext);
+            pnlFooter.Controls.Add(btnPage3);
+            pnlFooter.Controls.Add(btnPage2);
+            pnlFooter.Controls.Add(btnPage1);
+            pnlFooter.Controls.Add(btnPrev);
+            pnlFooter.Controls.Add(lblPageInfo);
+            pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            pnlFooter.Location = new System.Drawing.Point(1, 586);
+            pnlFooter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlFooter.Name = "pnlFooter";
+            pnlFooter.Size = new System.Drawing.Size(1203, 72);
+            pnlFooter.TabIndex = 2;
+            pnlFooter.Paint += pnlFooter_Paint;
             // 
             // btnNext
             // 
-            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNext.FlatAppearance.BorderSize = 0;
-            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNext.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNext.Location = new System.Drawing.Point(1014, 13);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(28, 28);
-            this.btnNext.TabIndex = 5;
-            this.btnNext.Tag = "\uE76C";
-            this.btnNext.UseVisualStyleBackColor = false;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            this.btnNext.Paint += new System.Windows.Forms.PaintEventHandler(this.Pager_Paint);
+            btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnNext.FlatAppearance.BorderSize = 0;
+            btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnNext.Font = new System.Drawing.Font("Segoe UI", 6F);
+            btnNext.Location = new System.Drawing.Point(1160, 17);
+            btnNext.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new System.Drawing.Size(32, 37);
+            btnNext.TabIndex = 5;
+            btnNext.Tag = "";
+            btnNext.UseVisualStyleBackColor = false;
+            btnNext.Click += btnNext_Click;
+            btnNext.Paint += Pager_Paint;
+            // 
+            // btnPage3
+            // 
+            btnPage3.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnPage3.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnPage3.FlatAppearance.BorderSize = 0;
+            btnPage3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnPage3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnPage3.Location = new System.Drawing.Point(1123, 17);
+            btnPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnPage3.Name = "btnPage3";
+            btnPage3.Size = new System.Drawing.Size(32, 37);
+            btnPage3.TabIndex = 4;
+            btnPage3.Text = "3";
+            btnPage3.UseVisualStyleBackColor = false;
+            btnPage3.Click += Page_Click;
+            btnPage3.Paint += Pager_Paint;
+            // 
+            // btnPage2
+            // 
+            btnPage2.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnPage2.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnPage2.FlatAppearance.BorderSize = 0;
+            btnPage2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnPage2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnPage2.Location = new System.Drawing.Point(1087, 17);
+            btnPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnPage2.Name = "btnPage2";
+            btnPage2.Size = new System.Drawing.Size(32, 37);
+            btnPage2.TabIndex = 3;
+            btnPage2.Text = "2";
+            btnPage2.UseVisualStyleBackColor = false;
+            btnPage2.Click += Page_Click;
+            btnPage2.Paint += Pager_Paint;
+            // 
+            // btnPage1
+            // 
+            btnPage1.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnPage1.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnPage1.FlatAppearance.BorderSize = 0;
+            btnPage1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnPage1.Location = new System.Drawing.Point(1050, 17);
+            btnPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnPage1.Name = "btnPage1";
+            btnPage1.Size = new System.Drawing.Size(32, 37);
+            btnPage1.TabIndex = 2;
+            btnPage1.Text = "1";
+            btnPage1.UseVisualStyleBackColor = false;
+            btnPage1.Click += Page_Click;
+            btnPage1.Paint += Pager_Paint;
+            // 
+            // btnPrev
+            // 
+            btnPrev.Anchor = ((System.Windows.Forms.AnchorStyles)(System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right));
+            btnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnPrev.FlatAppearance.BorderSize = 0;
+            btnPrev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnPrev.Font = new System.Drawing.Font("Segoe UI", 6F);
+            btnPrev.Location = new System.Drawing.Point(1014, 17);
+            btnPrev.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnPrev.Name = "btnPrev";
+            btnPrev.Size = new System.Drawing.Size(32, 37);
+            btnPrev.TabIndex = 1;
+            btnPrev.Tag = "";
+            btnPrev.UseVisualStyleBackColor = false;
+            btnPrev.Click += btnPrev_Click;
+            btnPrev.Paint += Pager_Paint;
+            // 
+            // lblPageInfo
+            // 
+            lblPageInfo.AutoSize = true;
+            lblPageInfo.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            lblPageInfo.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)135)), ((int)((byte)147)), ((int)((byte)163)));
+            lblPageInfo.Location = new System.Drawing.Point(21, 27);
+            lblPageInfo.Name = "lblPageInfo";
+            lblPageInfo.Size = new System.Drawing.Size(0, 19);
+            lblPageInfo.TabIndex = 0;
             // 
             // FormAttendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(245, 247, 251);
-            this.ClientSize = new System.Drawing.Size(1116, 790);
-            this.Controls.Add(this.pnlTable);
-            this.Controls.Add(this.pnlWarning);
-            this.Controls.Add(this.pnlToolbar);
-            this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.lblDesc);
-            this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.lblEyebrow);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormAttendance";
-            this.Text = "Điểm danh & Kết quả";
-            this.Load += new System.EventHandler(this.FormAttendance_Load);
-            this.pnlToolbar.ResumeLayout(false);
-            this.pnlTabs.ResumeLayout(false);
-            this.pnlWarning.ResumeLayout(false);
-            this.pnlTable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAttendance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvScores)).EndInit();
-            this.pnlFooter.ResumeLayout(false);
-            this.pnlFooter.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            AutoScroll = true;
+            BackColor = System.Drawing.Color.FromArgb(((int)((byte)245)), ((int)((byte)247)), ((int)((byte)251)));
+            ClientSize = new System.Drawing.Size(1275, 1053);
+            Controls.Add(pnlTable);
+            Controls.Add(pnlWarning);
+            Controls.Add(pnlToolbar);
+            Controls.Add(btnSave);
+            Controls.Add(lblDesc);
+            Controls.Add(lblTitle);
+            Controls.Add(lblEyebrow);
+            Font = new System.Drawing.Font("Segoe UI", 9F);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Location = new System.Drawing.Point(19, 19);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Text = "Điểm danh & Kết quả";
+            Load += FormAttendance_Load;
+            pnlToolbar.ResumeLayout(false);
+            pnlTabs.ResumeLayout(false);
+            pnlWarning.ResumeLayout(false);
+            pnlTable.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgvAttendance).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvScores).EndInit();
+            pnlFooter.ResumeLayout(false);
+            pnlFooter.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCertificate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colResult;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAverage;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colFinal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMidterm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colScoreAttendance;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colScoreStudent;
+        private System.Windows.Forms.DataGridView dgvScores;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAbsent;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colAttendance;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPhone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStudent;
+        private System.Windows.Forms.DataGridView dgvAttendance;
 
         #endregion
 
@@ -641,20 +706,6 @@ namespace EnglishCenterManagement.Forms
         private System.Windows.Forms.Label lblWarning;
         private System.Windows.Forms.Button btnReception;
         private System.Windows.Forms.Panel pnlTable;
-        private System.Windows.Forms.DataGridView dgvAttendance;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colStudent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPhone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAttendance;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAbsent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
-        private System.Windows.Forms.DataGridView dgvScores;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colScoreStudent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colScoreAttendance;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMidterm;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colFinal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colAverage;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colResult;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCertificate;
         private System.Windows.Forms.Panel pnlFooter;
         private System.Windows.Forms.Label lblPageInfo;
         private System.Windows.Forms.Button btnPrev;

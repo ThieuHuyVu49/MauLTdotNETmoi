@@ -15,347 +15,416 @@ namespace EnglishCenterManagement.Forms
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this.lblHeaderIcon = new System.Windows.Forms.Label();
-            this.lblHeaderTitle = new System.Windows.Forms.Label();
-            this.lblHeaderSub = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
-            this.pnlName = new System.Windows.Forms.Panel();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblCode = new System.Windows.Forms.Label();
-            this.pnlCode = new System.Windows.Forms.Panel();
-            this.txtCode = new System.Windows.Forms.TextBox();
-            this.lblDuration = new System.Windows.Forms.Label();
-            this.cboDuration = new System.Windows.Forms.ComboBox();
-            this.lblFee = new System.Windows.Forms.Label();
-            this.pnlFee = new System.Windows.Forms.Panel();
-            this.txtFee = new System.Windows.Forms.TextBox();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.pnlDescription = new System.Windows.Forms.Panel();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.lblStatus = new System.Windows.Forms.Label();
-            this.cboStatus = new System.Windows.Forms.ComboBox();
-            this.pnlFooter = new System.Windows.Forms.Panel();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.pnlName.SuspendLayout();
-            this.pnlCode.SuspendLayout();
-            this.pnlFee.SuspendLayout();
-            this.pnlDescription.SuspendLayout();
-            this.pnlFooter.SuspendLayout();
-            this.SuspendLayout();
+            lblHeaderIcon = new System.Windows.Forms.Label();
+            lblHeaderTitle = new System.Windows.Forms.Label();
+            lblHeaderSub = new System.Windows.Forms.Label();
+            btnClose = new System.Windows.Forms.Button();
+            lblName = new System.Windows.Forms.Label();
+            pnlName = new System.Windows.Forms.Panel();
+            txtName = new System.Windows.Forms.TextBox();
+            lblCode = new System.Windows.Forms.Label();
+            pnlCode = new System.Windows.Forms.Panel();
+            txtCode = new System.Windows.Forms.TextBox();
+            lblDuration = new System.Windows.Forms.Label();
+            cboDuration = new System.Windows.Forms.ComboBox();
+            lblFee = new System.Windows.Forms.Label();
+            pnlFee = new System.Windows.Forms.Panel();
+            txtFee = new System.Windows.Forms.TextBox();
+            lblDescription = new System.Windows.Forms.Label();
+            pnlDescription = new System.Windows.Forms.Panel();
+            txtDescription = new System.Windows.Forms.TextBox();
+            lblStatus = new System.Windows.Forms.Label();
+            cboStatus = new System.Windows.Forms.ComboBox();
+            pnlFooter = new System.Windows.Forms.Panel();
+            btnDelete = new System.Windows.Forms.Button();
+            btnCancel = new System.Windows.Forms.Button();
+            btnSave = new System.Windows.Forms.Button();
+            pnlName.SuspendLayout();
+            pnlCode.SuspendLayout();
+            pnlFee.SuspendLayout();
+            pnlDescription.SuspendLayout();
+            pnlFooter.SuspendLayout();
+            SuspendLayout();
+            // 
             // lblHeaderIcon
-            this.lblHeaderIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHeaderIcon.ForeColor = System.Drawing.Color.FromArgb(39, 127, 201);
-            this.lblHeaderIcon.Location = new System.Drawing.Point(24, 22);
-            this.lblHeaderIcon.Name = "lblHeaderIcon";
-            this.lblHeaderIcon.Size = new System.Drawing.Size(38, 38);
-            this.lblHeaderIcon.TabIndex = 0;
-            this.lblHeaderIcon.Tag = "#eaf5fe";
-            this.lblHeaderIcon.Text = "\uE8F1";
-            this.lblHeaderIcon.Paint += new System.Windows.Forms.PaintEventHandler(this.HeaderIcon_Paint);
+            // 
+            lblHeaderIcon.Font = new System.Drawing.Font("Segoe MDL2 Assets", 11F);
+            lblHeaderIcon.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)39)), ((int)((byte)127)), ((int)((byte)201)));
+            lblHeaderIcon.Location = new System.Drawing.Point(27, 29);
+            lblHeaderIcon.Name = "lblHeaderIcon";
+            lblHeaderIcon.Size = new System.Drawing.Size(43, 51);
+            lblHeaderIcon.TabIndex = 0;
+            lblHeaderIcon.Tag = "#eaf5fe";
+            lblHeaderIcon.Text = "";
+            lblHeaderIcon.Paint += HeaderIcon_Paint;
+            // 
             // lblHeaderTitle
-            this.lblHeaderTitle.AutoSize = true;
-            this.lblHeaderTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblHeaderTitle.ForeColor = System.Drawing.Color.FromArgb(23, 36, 61);
-            this.lblHeaderTitle.Location = new System.Drawing.Point(74, 19);
-            this.lblHeaderTitle.Name = "lblHeaderTitle";
-            this.lblHeaderTitle.Size = new System.Drawing.Size(134, 21);
-            this.lblHeaderTitle.TabIndex = 1;
-            this.lblHeaderTitle.Text = "Thêm khóa học";
+            // 
+            lblHeaderTitle.AutoSize = true;
+            lblHeaderTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            lblHeaderTitle.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)23)), ((int)((byte)36)), ((int)((byte)61)));
+            lblHeaderTitle.Location = new System.Drawing.Point(85, 25);
+            lblHeaderTitle.Name = "lblHeaderTitle";
+            lblHeaderTitle.Size = new System.Drawing.Size(157, 28);
+            lblHeaderTitle.TabIndex = 1;
+            lblHeaderTitle.Text = "Thêm khóa học";
+            // 
             // lblHeaderSub
-            this.lblHeaderSub.AutoSize = true;
-            this.lblHeaderSub.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHeaderSub.ForeColor = System.Drawing.Color.FromArgb(135, 147, 163);
-            this.lblHeaderSub.Location = new System.Drawing.Point(75, 43);
-            this.lblHeaderSub.Name = "lblHeaderSub";
-            this.lblHeaderSub.Size = new System.Drawing.Size(286, 13);
-            this.lblHeaderSub.TabIndex = 2;
-            this.lblHeaderSub.Text = "Thiết lập chương trình đào tạo và mức học phí.";
+            // 
+            lblHeaderSub.AutoSize = true;
+            lblHeaderSub.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            lblHeaderSub.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)135)), ((int)((byte)147)), ((int)((byte)163)));
+            lblHeaderSub.Location = new System.Drawing.Point(86, 57);
+            lblHeaderSub.Name = "lblHeaderSub";
+            lblHeaderSub.Size = new System.Drawing.Size(295, 19);
+            lblHeaderSub.TabIndex = 2;
+            lblHeaderSub.Text = "Thiết lập chương trình đào tạo và mức học phí.";
+            // 
             // btnClose
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnClose.Location = new System.Drawing.Point(526, 24);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(30, 30);
-            this.btnClose.TabIndex = 20;
-            this.btnClose.TabStop = false;
-            this.btnClose.Tag = "\uE711";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnCancel_Click);
-            this.btnClose.Paint += new System.Windows.Forms.PaintEventHandler(this.Soft_Paint);
+            // 
+            btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnClose.FlatAppearance.BorderSize = 0;
+            btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnClose.Font = new System.Drawing.Font("Segoe UI", 7.5F);
+            btnClose.Location = new System.Drawing.Point(601, 32);
+            btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new System.Drawing.Size(34, 40);
+            btnClose.TabIndex = 20;
+            btnClose.TabStop = false;
+            btnClose.Tag = "";
+            btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnCancel_Click;
+            btnClose.Paint += Soft_Paint;
+            // 
             // lblName
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblName.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblName.Location = new System.Drawing.Point(24, 100);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(86, 13);
-            this.lblName.TabIndex = 3;
-            this.lblName.Text = "Tên khóa học *";
+            // 
+            lblName.AutoSize = true;
+            lblName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblName.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblName.Location = new System.Drawing.Point(27, 133);
+            lblName.Name = "lblName";
+            lblName.Size = new System.Drawing.Size(107, 19);
+            lblName.TabIndex = 3;
+            lblName.Text = "Tên khóa học *";
+            // 
             // pnlName
-            this.pnlName.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlName.Controls.Add(this.txtName);
-            this.pnlName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlName.Location = new System.Drawing.Point(24, 120);
-            this.pnlName.Name = "pnlName";
-            this.pnlName.Size = new System.Drawing.Size(258, 38);
-            this.pnlName.TabIndex = 4;
-            this.pnlName.Click += new System.EventHandler(this.Input_Click);
-            this.pnlName.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
+            // 
+            pnlName.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlName.Controls.Add(txtName);
+            pnlName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlName.Location = new System.Drawing.Point(27, 160);
+            pnlName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlName.Name = "pnlName";
+            pnlName.Size = new System.Drawing.Size(295, 51);
+            pnlName.TabIndex = 4;
+            pnlName.Click += Input_Click;
+            pnlName.Paint += Input_Paint;
+            // 
             // txtName
-            this.txtName.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtName.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtName.Location = new System.Drawing.Point(12, 11);
-            this.txtName.Name = "txtName";
-            this.txtName.PlaceholderText = "Ví dụ: IELTS 6.5";
-            this.txtName.Size = new System.Drawing.Size(234, 16);
-            this.txtName.TabIndex = 0;
+            // 
+            txtName.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtName.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtName.Location = new System.Drawing.Point(14, 15);
+            txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtName.Name = "txtName";
+            txtName.PlaceholderText = "Ví dụ: IELTS 6.5";
+            txtName.Size = new System.Drawing.Size(267, 20);
+            txtName.TabIndex = 0;
+            // 
             // lblCode
-            this.lblCode.AutoSize = true;
-            this.lblCode.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCode.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblCode.Location = new System.Drawing.Point(298, 100);
-            this.lblCode.Name = "lblCode";
-            this.lblCode.Size = new System.Drawing.Size(85, 13);
-            this.lblCode.TabIndex = 5;
-            this.lblCode.Text = "Mã khóa học *";
+            // 
+            lblCode.AutoSize = true;
+            lblCode.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblCode.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblCode.Location = new System.Drawing.Point(341, 133);
+            lblCode.Name = "lblCode";
+            lblCode.Size = new System.Drawing.Size(105, 19);
+            lblCode.TabIndex = 5;
+            lblCode.Text = "Mã khóa học *";
+            // 
             // pnlCode
-            this.pnlCode.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlCode.Controls.Add(this.txtCode);
-            this.pnlCode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlCode.Location = new System.Drawing.Point(298, 120);
-            this.pnlCode.Name = "pnlCode";
-            this.pnlCode.Size = new System.Drawing.Size(258, 38);
-            this.pnlCode.TabIndex = 6;
-            this.pnlCode.Click += new System.EventHandler(this.Input_Click);
-            this.pnlCode.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
+            // 
+            pnlCode.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlCode.Controls.Add(txtCode);
+            pnlCode.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlCode.Location = new System.Drawing.Point(341, 160);
+            pnlCode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlCode.Name = "pnlCode";
+            pnlCode.Size = new System.Drawing.Size(295, 51);
+            pnlCode.TabIndex = 6;
+            pnlCode.Click += Input_Click;
+            pnlCode.Paint += Input_Paint;
+            // 
             // txtCode
-            this.txtCode.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtCode.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtCode.Location = new System.Drawing.Point(12, 11);
-            this.txtCode.Name = "txtCode";
-            this.txtCode.PlaceholderText = "IELTS-65";
-            this.txtCode.Size = new System.Drawing.Size(234, 16);
-            this.txtCode.TabIndex = 0;
+            // 
+            txtCode.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtCode.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtCode.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtCode.Location = new System.Drawing.Point(14, 15);
+            txtCode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtCode.Name = "txtCode";
+            txtCode.PlaceholderText = "IELTS-65";
+            txtCode.Size = new System.Drawing.Size(267, 20);
+            txtCode.TabIndex = 0;
+            // 
             // lblDuration
-            this.lblDuration.AutoSize = true;
-            this.lblDuration.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDuration.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblDuration.Location = new System.Drawing.Point(24, 170);
-            this.lblDuration.Name = "lblDuration";
-            this.lblDuration.Size = new System.Drawing.Size(65, 13);
-            this.lblDuration.TabIndex = 7;
-            this.lblDuration.Text = "Thời lượng";
-            this.cboDuration.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.cboDuration.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboDuration.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cboDuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboDuration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboDuration.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cboDuration.ForeColor = System.Drawing.Color.FromArgb(43, 58, 82);
-            this.cboDuration.ItemHeight = 32;
-            this.cboDuration.Items.AddRange(new object[] { "12 tuần · 36 buổi", "10 tuần · 30 buổi", "8 tuần · 24 buổi" });
-            this.cboDuration.Location = new System.Drawing.Point(24, 190);
-            this.cboDuration.Name = "cboDuration";
-            this.cboDuration.Size = new System.Drawing.Size(258, 38);
-            this.cboDuration.TabIndex = 8;
-            this.cboDuration.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
+            // 
+            lblDuration.AutoSize = true;
+            lblDuration.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblDuration.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblDuration.Location = new System.Drawing.Point(27, 227);
+            lblDuration.Name = "lblDuration";
+            lblDuration.Size = new System.Drawing.Size(81, 19);
+            lblDuration.TabIndex = 7;
+            lblDuration.Text = "Thời lượng";
+            // 
+            // cboDuration
+            // 
+            cboDuration.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            cboDuration.Cursor = System.Windows.Forms.Cursors.Hand;
+            cboDuration.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            cboDuration.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cboDuration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cboDuration.Font = new System.Drawing.Font("Segoe UI", 9F);
+            cboDuration.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)43)), ((int)((byte)58)), ((int)((byte)82)));
+            cboDuration.ItemHeight = 32;
+            cboDuration.Items.AddRange(new object[] { "12 tuần · 36 buổi", "10 tuần · 30 buổi", "8 tuần · 24 buổi" });
+            cboDuration.Location = new System.Drawing.Point(27, 253);
+            cboDuration.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            cboDuration.Name = "cboDuration";
+            cboDuration.Size = new System.Drawing.Size(294, 38);
+            cboDuration.TabIndex = 8;
+            cboDuration.DrawItem += Combo_DrawItem;
+            // 
             // lblFee
-            this.lblFee.AutoSize = true;
-            this.lblFee.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFee.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblFee.Location = new System.Drawing.Point(298, 170);
-            this.lblFee.Name = "lblFee";
-            this.lblFee.Size = new System.Drawing.Size(58, 13);
-            this.lblFee.TabIndex = 9;
-            this.lblFee.Text = "Học phí *";
+            // 
+            lblFee.AutoSize = true;
+            lblFee.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblFee.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblFee.Location = new System.Drawing.Point(341, 227);
+            lblFee.Name = "lblFee";
+            lblFee.Size = new System.Drawing.Size(71, 19);
+            lblFee.TabIndex = 9;
+            lblFee.Text = "Học phí *";
+            // 
             // pnlFee
-            this.pnlFee.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlFee.Controls.Add(this.txtFee);
-            this.pnlFee.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlFee.Location = new System.Drawing.Point(298, 190);
-            this.pnlFee.Name = "pnlFee";
-            this.pnlFee.Size = new System.Drawing.Size(258, 38);
-            this.pnlFee.TabIndex = 10;
-            this.pnlFee.Click += new System.EventHandler(this.Input_Click);
-            this.pnlFee.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
+            // 
+            pnlFee.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlFee.Controls.Add(txtFee);
+            pnlFee.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlFee.Location = new System.Drawing.Point(341, 253);
+            pnlFee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlFee.Name = "pnlFee";
+            pnlFee.Size = new System.Drawing.Size(295, 51);
+            pnlFee.TabIndex = 10;
+            pnlFee.Click += Input_Click;
+            pnlFee.Paint += Input_Paint;
+            // 
             // txtFee
-            this.txtFee.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtFee.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFee.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtFee.Location = new System.Drawing.Point(12, 11);
-            this.txtFee.Name = "txtFee";
-            this.txtFee.PlaceholderText = "8.900.000";
-            this.txtFee.Size = new System.Drawing.Size(234, 16);
-            this.txtFee.TabIndex = 0;
+            // 
+            txtFee.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtFee.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtFee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtFee.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtFee.Location = new System.Drawing.Point(14, 15);
+            txtFee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtFee.Name = "txtFee";
+            txtFee.PlaceholderText = "8.900.000";
+            txtFee.Size = new System.Drawing.Size(267, 20);
+            txtFee.TabIndex = 0;
+            // 
             // lblDescription
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDescription.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblDescription.Location = new System.Drawing.Point(24, 240);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(112, 13);
-            this.lblDescription.TabIndex = 11;
-            this.lblDescription.Text = "Mô tả chương trình";
+            // 
+            lblDescription.AutoSize = true;
+            lblDescription.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblDescription.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblDescription.Location = new System.Drawing.Point(27, 320);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new System.Drawing.Size(137, 19);
+            lblDescription.TabIndex = 11;
+            lblDescription.Text = "Mô tả chương trình";
+            // 
             // pnlDescription
-            this.pnlDescription.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlDescription.Controls.Add(this.txtDescription);
-            this.pnlDescription.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pnlDescription.Location = new System.Drawing.Point(24, 260);
-            this.pnlDescription.Name = "pnlDescription";
-            this.pnlDescription.Size = new System.Drawing.Size(532, 70);
-            this.pnlDescription.TabIndex = 12;
-            this.pnlDescription.Click += new System.EventHandler(this.Input_Click);
-            this.pnlDescription.Paint += new System.Windows.Forms.PaintEventHandler(this.Input_Paint);
+            // 
+            pnlDescription.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlDescription.Controls.Add(txtDescription);
+            pnlDescription.Cursor = System.Windows.Forms.Cursors.IBeam;
+            pnlDescription.Location = new System.Drawing.Point(27, 347);
+            pnlDescription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlDescription.Name = "pnlDescription";
+            pnlDescription.Size = new System.Drawing.Size(608, 93);
+            pnlDescription.TabIndex = 12;
+            pnlDescription.Click += Input_Click;
+            pnlDescription.Paint += Input_Paint;
+            // 
             // txtDescription
-            this.txtDescription.AcceptsReturn = true;
-            this.txtDescription.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtDescription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDescription.ForeColor = System.Drawing.Color.FromArgb(31, 45, 68);
-            this.txtDescription.Location = new System.Drawing.Point(12, 11);
-            this.txtDescription.Multiline = true;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.PlaceholderText = "Mục tiêu và nội dung khóa học";
-            this.txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDescription.Size = new System.Drawing.Size(508, 48);
-            this.txtDescription.TabIndex = 0;
+            // 
+            txtDescription.AcceptsReturn = true;
+            txtDescription.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            txtDescription.Font = new System.Drawing.Font("Segoe UI", 9F);
+            txtDescription.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)31)), ((int)((byte)45)), ((int)((byte)68)));
+            txtDescription.Location = new System.Drawing.Point(14, 16);
+            txtDescription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtDescription.Multiline = true;
+            txtDescription.Name = "txtDescription";
+            txtDescription.PlaceholderText = "Mục tiêu và nội dung khóa học";
+            txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            txtDescription.Size = new System.Drawing.Size(581, 64);
+            txtDescription.TabIndex = 0;
+            // 
             // lblStatus
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(58, 73, 96);
-            this.lblStatus.Location = new System.Drawing.Point(24, 342);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(63, 13);
-            this.lblStatus.TabIndex = 13;
-            this.lblStatus.Text = "Trạng thái";
-            this.lblStatus.Visible = false;
+            // 
+            lblStatus.AutoSize = true;
+            lblStatus.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)58)), ((int)((byte)73)), ((int)((byte)96)));
+            lblStatus.Location = new System.Drawing.Point(27, 456);
+            lblStatus.Name = "lblStatus";
+            lblStatus.Size = new System.Drawing.Size(76, 19);
+            lblStatus.TabIndex = 13;
+            lblStatus.Text = "Trạng thái";
+            lblStatus.Visible = false;
+            // 
             // cboStatus
-            this.cboStatus.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.cboStatus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cboStatus.ForeColor = System.Drawing.Color.FromArgb(43, 58, 82);
-            this.cboStatus.ItemHeight = 32;
-            this.cboStatus.Items.AddRange(new object[] {
-            "Đang tuyển sinh",
-            "Tạm dừng"});
-            this.cboStatus.Location = new System.Drawing.Point(24, 362);
-            this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(258, 38);
-            this.cboStatus.TabIndex = 14;
-            this.cboStatus.Visible = false;
-            this.cboStatus.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.Combo_DrawItem);
+            // 
+            cboStatus.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            cboStatus.Cursor = System.Windows.Forms.Cursors.Hand;
+            cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cboStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cboStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
+            cboStatus.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)43)), ((int)((byte)58)), ((int)((byte)82)));
+            cboStatus.ItemHeight = 32;
+            cboStatus.Items.AddRange(new object[] { "Đang tuyển sinh", "Tạm dừng" });
+            cboStatus.Location = new System.Drawing.Point(27, 483);
+            cboStatus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            cboStatus.Name = "cboStatus";
+            cboStatus.Size = new System.Drawing.Size(294, 38);
+            cboStatus.TabIndex = 14;
+            cboStatus.Visible = false;
+            cboStatus.DrawItem += Combo_DrawItem;
+            // 
             // pnlFooter
-            this.pnlFooter.BackColor = System.Drawing.Color.FromArgb(250, 251, 252);
-            this.pnlFooter.Controls.Add(this.btnDelete);
-            this.pnlFooter.Controls.Add(this.btnCancel);
-            this.pnlFooter.Controls.Add(this.btnSave);
-            this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFooter.Location = new System.Drawing.Point(0, 350);
-            this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.Size = new System.Drawing.Size(580, 68);
-            this.pnlFooter.TabIndex = 15;
-            this.pnlFooter.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFooter_Paint);
+            // 
+            pnlFooter.BackColor = System.Drawing.Color.FromArgb(((int)((byte)250)), ((int)((byte)251)), ((int)((byte)252)));
+            pnlFooter.Controls.Add(btnDelete);
+            pnlFooter.Controls.Add(btnCancel);
+            pnlFooter.Controls.Add(btnSave);
+            pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            pnlFooter.Location = new System.Drawing.Point(0, 466);
+            pnlFooter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pnlFooter.Name = "pnlFooter";
+            pnlFooter.Size = new System.Drawing.Size(663, 91);
+            pnlFooter.TabIndex = 15;
+            pnlFooter.Paint += pnlFooter_Paint;
+            // 
             // btnDelete
-            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDelete.Location = new System.Drawing.Point(24, 16);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(84, 36);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Tag = "\uE74D";
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Visible = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            this.btnDelete.Paint += new System.Windows.Forms.PaintEventHandler(this.Danger_Paint);
+            // 
+            btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnDelete.FlatAppearance.BorderSize = 0;
+            btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnDelete.Location = new System.Drawing.Point(27, 21);
+            btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new System.Drawing.Size(96, 48);
+            btnDelete.TabIndex = 2;
+            btnDelete.Tag = "";
+            btnDelete.Text = "Xóa";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Visible = false;
+            btnDelete.Click += btnDelete_Click;
+            btnDelete.Paint += Danger_Paint;
+            // 
             // btnCancel
-            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCancel.Location = new System.Drawing.Point(328, 16);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(84, 36);
-            this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "Hủy";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            this.btnCancel.Paint += new System.Windows.Forms.PaintEventHandler(this.Outline_Paint);
+            // 
+            btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            btnCancel.FlatAppearance.BorderSize = 0;
+            btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnCancel.Location = new System.Drawing.Point(375, 21);
+            btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new System.Drawing.Size(96, 48);
+            btnCancel.TabIndex = 1;
+            btnCancel.Text = "Hủy";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnCancel_Click;
+            btnCancel.Paint += Outline_Paint;
+            // 
             // btnSave
-            this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSave.FlatAppearance.BorderSize = 0;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(422, 16);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(134, 36);
-            this.btnSave.TabIndex = 0;
-            this.btnSave.Tag = "\uE73E";
-            this.btnSave.Text = "Tạo khóa học";
-            this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            this.btnSave.Paint += new System.Windows.Forms.PaintEventHandler(this.Accent_Paint);
+            // 
+            btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            btnSave.FlatAppearance.BorderSize = 0;
+            btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            btnSave.ForeColor = System.Drawing.Color.White;
+            btnSave.Location = new System.Drawing.Point(482, 21);
+            btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new System.Drawing.Size(153, 48);
+            btnSave.TabIndex = 0;
+            btnSave.Tag = "";
+            btnSave.Text = "Tạo khóa học";
+            btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
+            btnSave.Paint += Accent_Paint;
+            // 
             // FormCourseEdit
-            this.AcceptButton = this.btnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(580, 418);
-            this.Controls.Add(this.pnlFooter);
-            this.Controls.Add(this.cboStatus);
-            this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.pnlDescription);
-            this.Controls.Add(this.lblDescription);
-            this.Controls.Add(this.pnlFee);
-            this.Controls.Add(this.lblFee);
-            this.Controls.Add(this.cboDuration);
-            this.Controls.Add(this.lblDuration);
-            this.Controls.Add(this.pnlCode);
-            this.Controls.Add(this.lblCode);
-            this.Controls.Add(this.pnlName);
-            this.Controls.Add(this.lblName);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.lblHeaderSub);
-            this.Controls.Add(this.lblHeaderTitle);
-            this.Controls.Add(this.lblHeaderIcon);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormCourseEdit";
-            this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Thêm khóa học";
-            this.Load += new System.EventHandler(this.FormCourseEdit_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Dialog_Paint);
-            this.pnlName.ResumeLayout(false);
-            this.pnlName.PerformLayout();
-            this.pnlCode.ResumeLayout(false);
-            this.pnlCode.PerformLayout();
-            this.pnlFee.ResumeLayout(false);
-            this.pnlFee.PerformLayout();
-            this.pnlDescription.ResumeLayout(false);
-            this.pnlDescription.PerformLayout();
-            this.pnlFooter.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            AcceptButton = btnSave;
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.White;
+            CancelButton = btnCancel;
+            ClientSize = new System.Drawing.Size(663, 557);
+            Controls.Add(pnlFooter);
+            Controls.Add(cboStatus);
+            Controls.Add(lblStatus);
+            Controls.Add(pnlDescription);
+            Controls.Add(lblDescription);
+            Controls.Add(pnlFee);
+            Controls.Add(lblFee);
+            Controls.Add(cboDuration);
+            Controls.Add(lblDuration);
+            Controls.Add(pnlCode);
+            Controls.Add(lblCode);
+            Controls.Add(pnlName);
+            Controls.Add(lblName);
+            Controls.Add(btnClose);
+            Controls.Add(lblHeaderSub);
+            Controls.Add(lblHeaderTitle);
+            Controls.Add(lblHeaderIcon);
+            Font = new System.Drawing.Font("Segoe UI", 9F);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            ShowInTaskbar = false;
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            Text = "Thêm khóa học";
+            Load += FormCourseEdit_Load;
+            Paint += Dialog_Paint;
+            pnlName.ResumeLayout(false);
+            pnlName.PerformLayout();
+            pnlCode.ResumeLayout(false);
+            pnlCode.PerformLayout();
+            pnlFee.ResumeLayout(false);
+            pnlFee.PerformLayout();
+            pnlDescription.ResumeLayout(false);
+            pnlDescription.PerformLayout();
+            pnlFooter.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

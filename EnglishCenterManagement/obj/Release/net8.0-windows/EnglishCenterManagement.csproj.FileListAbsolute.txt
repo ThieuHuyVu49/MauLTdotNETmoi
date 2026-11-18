@@ -38,3 +38,7 @@ C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\Engli
 C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.pdb
 C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.genruntimeconfig.cache
 C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\ref\EnglishCenterManagement.dll
+C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.sourcelink.json
+C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.Forms.FormLogin.resources
+C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Qoder\2026-11-13\e7658c43\EnglishCenterManagement\EnglishCenterManagement\obj\Release\net8.0-windows\EnglishCenterManagement.Forms.FormCourseEdit.resources

@@ -313,6 +313,33 @@ public static class Ui
         c.Region = new Region(path);
     }
 
+    public static void Grid(Control host, float[] columnWeights, params Control[] cells)
+    {
+        int cols = columnWeights.Length, rows = (cells.Length + cols - 1) / cols;
+        float total = columnWeights.Sum();
+        var size = host.ClientSize;
+        for (int i = 0; i < cells.Length; i++)
+        {
+            int c = i % cols, r = i / cols;
+            int left = (int)(size.Width * columnWeights.Take(c).Sum() / total);
+            int right = (int)(size.Width * columnWeights.Take(c + 1).Sum() / total);
+            int top = size.Height * r / rows, bottom = size.Height * (r + 1) / rows;
+            var m = cells[i].Margin;
+            cells[i].SetBounds(left + m.Left, top + m.Top, right - left - m.Horizontal, bottom - top - m.Vertical);
+        }
+    }
+
+    public static void Stack(Control host, params Control[] items)
+    {
+        int y = 0;
+        foreach (var c in items)
+        {
+            c.Location = new Point(c.Margin.Left, y + c.Margin.Top);
+            y += c.Height + c.Margin.Vertical;
+        }
+        host.Height = y;
+    }
+
     // ---- ComboBox owner draw (DrawMode.OwnerDrawFixed) ----
     public static void ComboItem(object sender, DrawItemEventArgs e)
     {
