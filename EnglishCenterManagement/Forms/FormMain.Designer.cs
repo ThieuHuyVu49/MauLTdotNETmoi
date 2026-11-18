@@ -106,7 +106,7 @@ namespace EnglishCenterManagement.Forms
             pnlUser.Location = new System.Drawing.Point(18, 967);
             pnlUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             pnlUser.Name = "pnlUser";
-            pnlUser.Size = new System.Drawing.Size(242, 69);
+            pnlUser.Size = new System.Drawing.Size(254, 69);
             pnlUser.TabIndex = 16;
             pnlUser.Paint += pnlUser_Paint;
             // 
@@ -115,13 +115,14 @@ namespace EnglishCenterManagement.Forms
             btnSideLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             btnSideLogout.FlatAppearance.BorderSize = 0;
             btnSideLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnSideLogout.Font = new System.Drawing.Font("Segoe UI", 9F);
-            btnSideLogout.Location = new System.Drawing.Point(201, 17);
+            btnSideLogout.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            btnSideLogout.Location = new System.Drawing.Point(150, 15);
             btnSideLogout.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnSideLogout.Name = "btnSideLogout";
-            btnSideLogout.Size = new System.Drawing.Size(37, 43);
+            btnSideLogout.Size = new System.Drawing.Size(104, 40);
             btnSideLogout.TabIndex = 3;
-            btnSideLogout.Tag = "";
+            btnSideLogout.Tag = "\uF3B1";
+            btnSideLogout.Text = "Đăng xuất";
             btnSideLogout.UseVisualStyleBackColor = true;
             btnSideLogout.Click += Logout_Click;
             btnSideLogout.Paint += btnSideLogout_Paint;
@@ -130,9 +131,9 @@ namespace EnglishCenterManagement.Forms
             // 
             lblUserRole.Font = new System.Drawing.Font("Segoe UI", 7.25F);
             lblUserRole.ForeColor = System.Drawing.Color.FromArgb(((int)((byte)128)), ((int)((byte)149)), ((int)((byte)172)));
-            lblUserRole.Location = new System.Drawing.Point(50, 40);
+            lblUserRole.Location = new System.Drawing.Point(46, 40);
             lblUserRole.Name = "lblUserRole";
-            lblUserRole.Size = new System.Drawing.Size(139, 20);
+            lblUserRole.Size = new System.Drawing.Size(100, 20);
             lblUserRole.TabIndex = 2;
             lblUserRole.Text = "Quản trị viên";
             // 
@@ -141,9 +142,9 @@ namespace EnglishCenterManagement.Forms
             lblUserName.AutoEllipsis = true;
             lblUserName.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             lblUserName.ForeColor = System.Drawing.Color.White;
-            lblUserName.Location = new System.Drawing.Point(50, 16);
+            lblUserName.Location = new System.Drawing.Point(46, 16);
             lblUserName.Name = "lblUserName";
-            lblUserName.Size = new System.Drawing.Size(139, 23);
+            lblUserName.Size = new System.Drawing.Size(100, 23);
             lblUserName.TabIndex = 1;
             lblUserName.Text = "Thu Hà";
             // 

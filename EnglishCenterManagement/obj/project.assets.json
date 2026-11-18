@@ -324,19 +324,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Qoder\\2026-11-13\\e7658c43\\EnglishCenterManagement\\EnglishCenterManagement\\EnglishCenterManagement.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\RiderProjects\\MauLTdotNETmoi\\EnglishCenterManagement\\EnglishCenterManagement.csproj",
       "projectName": "EnglishCenterManagement",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Qoder\\2026-11-13\\e7658c43\\EnglishCenterManagement\\EnglishCenterManagement\\EnglishCenterManagement.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Qoder\\2026-11-13\\e7658c43\\EnglishCenterManagement\\EnglishCenterManagement\\obj\\",
+      "projectPath": "C:\\Users\\HP\\RiderProjects\\MauLTdotNETmoi\\EnglishCenterManagement\\EnglishCenterManagement.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\RiderProjects\\MauLTdotNETmoi\\EnglishCenterManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"

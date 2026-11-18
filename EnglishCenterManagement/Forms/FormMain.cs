@@ -189,7 +189,22 @@ public partial class FormMain : Form
 
     private void btnSideLogout_Paint(object sender, PaintEventArgs e)
     {
-        Ui.Button(sender, e, Ui.Hex("#213853"), Ui.Hex("#a7b6c7"), null, 8);
+        var b = (Button)sender;
+        var g = Ui.Smooth(e.Graphics);
+        bool hover = b.ClientRectangle.Contains(b.PointToClient(Cursor.Position));
+        g.Clear(pnlUser.BackColor);
+        using (var path = Ui.Round(new RectangleF(0.5f, 0.5f, b.Width - 1.5f, b.Height - 1.5f), 9))
+        using (var fill = new SolidBrush(hover ? Ui.Hex("#2a4766") : Ui.Hex("#213853")))
+            g.FillPath(fill, path);
+
+        var fore = hover ? Color.White : Ui.Hex("#c7d4e2");
+        using var font = new Font("Segoe UI", 8.25f, FontStyle.Bold);
+        var text = TextRenderer.MeasureText(g, b.Text, font, Size.Empty, TextFormatFlags.NoPadding);
+        const int iconWidth = 18, gap = 7;
+        int x = (b.Width - (iconWidth + gap + text.Width)) / 2;
+        Ui.DrawGlyph(g, (string)b.Tag, new Rectangle(x, 0, iconWidth, b.Height), fore, 10f);
+        TextRenderer.DrawText(g, b.Text, font, new Rectangle(x + iconWidth + gap, 0, text.Width + 2, b.Height), fore,
+            TextFormatFlags.VerticalCenter | TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix);
     }
 
     private void pnlSidebar_Resize(object sender, EventArgs e)
